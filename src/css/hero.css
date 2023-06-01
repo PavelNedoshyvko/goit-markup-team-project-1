@@ -14,9 +14,17 @@
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-item {
+    background-image: url(../img/hero/hero-mob@2x.jpg);
+  }
+}
+
 .hero-text {
   max-width: 299px;
-  color: var(--white-full);
+  color: var(--white-full-color);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -39,8 +47,8 @@
   font-size: 14px;
   line-height: 1.21;
 
-  background-color: var(--orange);
-  color: var(--white-full);
+  background-color: var(--accent-orange-color);
+  color: var(--white-full-color);
 
   border: none;
   border-radius: 100px;
@@ -77,14 +85,23 @@
   font-size: 14px;
   line-height: 1.21;
 
-  color: #ffffff;
+  color: var(--white-full-color);
 }
 
-/* .scr-btn {
-} */
+.scr-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29px;
+
+  letter-spacing: -0.03em;
+
+  color: var(--white-full-color);
+
+  margin-right: 12px;
+}
 
 .scr-btn-icon {
-  fill: var(--orange);
-  background-color: var(--white-full);
-  border-radius: 50%;
+  fill: var(--accent-orange-color);
+  margin-left: 12px;
 }
