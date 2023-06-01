@@ -63,6 +63,15 @@
   margin-bottom: 32px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 484px;
+
+    font-size: 28px;
+    line-height: 1.21;
+  }
+}
+
 .hero-thumb {
   /* border-radius: 50px; */
   /* width: 480px; */
@@ -95,6 +104,14 @@
   margin-bottom: 32px;
 }
 
+@media only screen and (min-width: 768px) {
+  .buy-btn {
+    padding: 14px 40px;
+    min-width: 144px;
+    height: 45px;
+  }
+}
+
 .how-its-made {
   padding: 12px 28px;
 
@@ -112,6 +129,23 @@
   color: var(--white-full-color);
 }
 
+@media only screen and (min-width: 768px) {
+  .how-its-made {
+    padding: 14px 40px;
+
+    min-width: 183px;
+    height: 45px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .how-its-made {
+    padding: 0px;
+
+    width: 341px;
+    height: 45px;
+  }
+}
 .scr-item {
   position: relative;
   /* display: flex; */
