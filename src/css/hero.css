@@ -12,6 +12,7 @@
   background-image: url(../img/hero/hero-mob.jpg);
 
   background-size: cover;
+  border-radius: 30px;
 }
 
 .hero-container {
@@ -139,7 +140,7 @@
 }
 
 .scr-item {
-  position: relative;
+  /* position: relative; */
   /* display: flex; */
 }
 
