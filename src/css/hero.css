@@ -15,7 +15,7 @@
 }
 
 .hero-container {
-  position: relative;
+  /* position: relative; */
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -59,6 +59,7 @@
 
 .control-btn {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .buy-btn {
@@ -74,28 +75,16 @@
   border: none;
   border-radius: 100px;
 
-  /* display: block; */
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  gap: 14px;
-
   padding: 12px 28px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-
   min-width: 120px;
   height: 41px;
+  margin-right: 14px;
 }
 
 .how-its-made {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 12px 28px;
-  gap: 14px;
 
-  width: 159px;
+  min-width: 159px;
   height: 41px;
 
   border: 1px solid #ffffff;
@@ -109,10 +98,14 @@
   color: var(--white-full-color);
 }
 
+.scr-item {
+  position: relative;
+}
+
 .scr-btn {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
+  /* position: absolute; */
+  left: 0px;
+  bottom: 0px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -121,11 +114,26 @@
   letter-spacing: -0.03em;
 
   color: var(--white-full-color);
-
-  margin-right: 12px;
 }
 
 .scr-btn-icon-wrapper {
-  fill: var(--accent-orange-color);
+  /* position: absolute; */
+  /* top: 24px; */
+  /* right: 24px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  border-radius: 50%;
+  background-color: var(--white-full-color);
   margin-left: 12px;
+}
+
+.scr-btn-icon {
+  fill: var(--accent-orange-color);
 }
