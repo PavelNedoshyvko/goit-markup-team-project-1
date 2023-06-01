@@ -1,7 +1,10 @@
 .top-header {
   display: flex;
+  justify-content: space-between;
 }
 .top-header-container {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-style: italic;
@@ -13,22 +16,38 @@
   color: var(--black);
 }
 .header-logo-icon {
+  margin-right: 188px;
 }
 .header-menu {
+  display: flex;
+  align-items: center;
 }
 .header-menu-nav {
 }
 .header-menu-list {
+  display: flex;
 }
 .header-menu-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: var(--black);
+  gap: 24px;
 }
+
 .header-menu-link {
 }
 .header-social-list {
+  margin-left: 137px;
 }
-.list {
-}
+
 .header-social-list-item {
+  display: flex;
 }
 .header-social-list-link {
 }
