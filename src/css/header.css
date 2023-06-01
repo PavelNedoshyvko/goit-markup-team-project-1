@@ -24,8 +24,10 @@
 }
 .header-menu-nav {
 }
+
 .header-menu-list {
   display: flex;
+  gap: 24px;
 }
 .header-menu-item {
   font-style: normal;
