@@ -58,9 +58,12 @@
   --white-full-color: #ffffff;
   --text-section-color: rgb(255, 255, 255, 0.7);
   --text-cards-color: rgb(17, 17, 17, 0.7);
+  --text-placeholder-color: rgb(64, 64, 64, 0.3);
   --button-card-border-color: rgb(17, 17, 17, 0.1);
+  --button-mobile-menu-close-bg-color: #fcf1e0;
   --line-section-color: rgb(255, 255, 255, 0.5);
   --line-footer-color: rgb(255, 255, 255, 0.1);
+  --input-border-color: rgb(17, 17, 17, 0.05);
 
   /* Transitions and animations */
 
