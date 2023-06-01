@@ -157,24 +157,11 @@
   color: var(--white-full-color);
 }
 
-.scr-btn-icon-wrapper {
-  position: absolute;
-  /* top: 24px; */
-  /* right: 24px; */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.scr-btn-icon {
+  fill: var(--accent-orange-color);
+  background-color: var(--white-full-color);
+  border-radius: 50%;
   width: 28px;
   height: 28px;
   padding: 0;
-
-  border-radius: 50%;
-  background-color: var(--white-full-color);
-  /* margin-left: 12px; */
-}
-
-.scr-btn-icon {
-  fill: var(--accent-orange-color);
 }
