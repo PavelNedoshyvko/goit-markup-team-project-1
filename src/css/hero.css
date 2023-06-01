@@ -155,6 +155,9 @@
   letter-spacing: -0.03em;
 
   color: var(--white-full-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scr-btn-icon {
@@ -164,4 +167,11 @@
   width: 28px;
   height: 28px;
   padding: 0;
+  margin-left: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .scr-btn {
+    justify-content: flex-end;
+  }
 }
