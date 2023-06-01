@@ -1,0 +1,36 @@
+.top-header {
+  display: flex;
+}
+.top-header-container {
+}
+.header-logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+
+  color: var(--black);
+}
+.header-logo-icon {
+}
+.header-menu {
+}
+.header-menu-nav {
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.header-social-list {
+}
+.list {
+}
+.header-social-list-item {
+}
+.header-social-list-link {
+}
+.header-social-list-icon {
+}
