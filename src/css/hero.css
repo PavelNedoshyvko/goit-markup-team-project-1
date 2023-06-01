@@ -4,7 +4,7 @@
   padding-top: 395px;
   padding-bottom: 20px;
 
-  background-color: var(--background-deep-violet-color);
+  background-color: var(--button-mobile-menu-close-bg-color);
   margin: 0 auto;
 
   /* background-repeat: no-repeat; */
@@ -82,7 +82,7 @@
 
 .control-btn {
   display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
 .buy-btn {
@@ -102,7 +102,6 @@
   min-width: 120px;
   height: 41px;
   margin-right: 14px;
-  margin-bottom: 32px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -141,7 +140,7 @@
 
 .scr-item {
   /* position: relative; */
-  /* display: flex; */
+  display: flex;
 }
 
 .scr-btn {
