@@ -112,7 +112,8 @@
 }
 
 .scr-item {
-  position: relative;
+  /* position: relative; */
+  display: flex;
 }
 
 .scr-btn {
