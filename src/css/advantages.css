@@ -1,18 +1,34 @@
+.visually-hidden {
+    
+
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 @media screen and (min-width: 320px){
     .container{
         max-width: 320px;
     }
+    .icon{
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
     .advantages-class-section{
-        
+       
         background: #1E1823;
     }
     .advantages-class-ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        
     }
     .advantages-class-li{
-        margin-bottom: 144px;
+        
     }
     
     .advantages-class-h1{
@@ -38,4 +54,10 @@ letter-spacing: -0.02em;
 
 color: rgba(255, 255, 255, 0.7);
    }
+}
+@media screen and (min-width: 375px){
+    .container{
+        min-width: 375px;
+    }
+    
 }
