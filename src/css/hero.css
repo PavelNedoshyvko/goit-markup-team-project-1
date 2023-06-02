@@ -151,6 +151,7 @@
   line-height: 1.21;
 
   color: var(--white-full-color);
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
