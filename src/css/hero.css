@@ -1,7 +1,27 @@
+.retreat-inside {
+  /* width: 100%; */
+  /* max-width: var(--breakpoint-mobile); */
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+@media only screen and (min-width: 768px) {
+  .retreat-inside {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
 .hero-item {
   max-width: 1200px;
 
   padding-top: 395px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
 
   background-color: var(--button-mobile-menu-close-bg-color);
@@ -15,8 +35,17 @@
   border-radius: 30px;
 }
 
-/* .hero-container {
-} */
+@media only screen and (min-width: 768px) {
+  .hero-item {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.hero-container {
+  min-width: 295px;
+}
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -77,7 +106,7 @@
 
 .control-btn {
   display: flex;
-  margin-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .buy-btn {
@@ -133,15 +162,18 @@
   }
 }
 
-.scr-item {
-  /* position: relative; */
+/* .scr-item {
+  position: relative;
   display: flex;
-}
+} */
 
 .scr-btn {
   /* position: absolute; */
   /* left: 0px; */
   /* bottom: 0px; */
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -150,9 +182,13 @@
   letter-spacing: -0.03em;
 
   color: var(--white-full-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 32px;
+}
+
+@media only screen and (min-width: 450px) {
+  .scr-btn {
+    margin-top: 0;
+  }
 }
 
 .scr-btn-icon {
