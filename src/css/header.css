@@ -21,10 +21,11 @@ body {
   letter-spacing: -0.03em;
 
   color: var(--black-color);
-  /* margin-right: auto; */
+  margin-right: auto;
 }
 
 .header-logo-icon {
+  margin-left: 4px;
 }
 
 .header-menu {
@@ -100,8 +101,7 @@ body {
 .header-social-list {
   display: flex;
   gap: 18px;
-  padding: 0;
-  margin: 0;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 1199px) {
