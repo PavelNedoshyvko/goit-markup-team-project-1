@@ -86,6 +86,10 @@ body {
   color: var(--black-color);
 }
 
+.header-menu-link:is(:hover, :focus) {
+  color: var(--accent-orange-color);
+}
+
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
