@@ -2,17 +2,17 @@ body {
   padding: 20px;
 }
 .top-header {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 @media only screen and (max-width: 767px) {
   .top-header {
-    padding-top: 27px;
-    padding-bottom: 21px;
+    padding-top: 20px;
+    padding-bottom: 14px;
   }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .top-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -101,7 +101,6 @@ body {
 
   border: none;
   border-radius: 50%;
-  background-color: black;
 }
 
 @media (min-width: 1200px) {
@@ -112,7 +111,7 @@ body {
 
 .icon-burger-btn {
   stroke: blue;
-  fill: none;
+  fill: red;
 }
 
 @media only screen and (max-width: 1199px) {
