@@ -83,16 +83,20 @@
   fill: black;
 }
 
-.header-social-list {
-}
 @media only screen and (max-width: 1199px) {
   .header-social-list {
     display: none;
   }
 }
+
+.header-social-list {
+}
+
 .header-social-list-item {
 }
 .header-social-list-link {
 }
 .header-social-list-icon {
+  stroke: var(--black-color);
+  fill: none;
 }
