@@ -40,7 +40,7 @@
   --breakpoint-desktop: 1200px;
 
   --min-width-mobile: 320px;
-  --primary-container-width-mobile: 335px;
+  /* --primary-container-width-mobile: 335px; */
   --outer-container-width-mobile: 375px;
 
   --primary-container-width-tablet: 704px;
