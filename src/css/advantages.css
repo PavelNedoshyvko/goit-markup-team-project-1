@@ -1,10 +1,7 @@
 .visually-hidden {
-    
-
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -22,48 +19,40 @@
             fill: currentColor;
     }
     .advantages-class-section{
-       
         background: #1E1823;
     }
-   
-    
+   .advantages-class-ul{
+    margin-top: 20px;
+   }
     .advantages-class-h1{
        margin-bottom: 10px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
-
 color: #FFFFFF; 
     }
    .advantages-class-p{
     font-family: 'Montserrat';
 font-style: normal;
-
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
 letter-spacing: -0.02em;
-
 color: rgba(255, 255, 255, 0.7);
    }
    .div-for-circle{
     width: 62px;
 height: 62px;
-
 border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
 background-color: none;
-color:#ffffff;
-border: 1px solid #ffffff ;
+color:#ffffff ;
+border: 1px solid var(--line-section-color);
 margin-bottom: 22px;
-margin-top: 38px;
-opacity: 50%;
    }
    .icon-chocolate-bar-svg{
     opacity: none;
@@ -73,5 +62,4 @@ opacity: 50%;
     .container{
         min-width: 375px;
     }
-    
 }
