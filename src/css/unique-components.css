@@ -1,37 +1,33 @@
 
 .unique-components {
-    min-width: 320px;
-    max-width: 335px;
-    padding: 0;
-    margin: 72px auto;
+    padding: 72px 0;
+   
 }
 @media only screen and (min-width: 768px) {
   .unique-components {
-    max-width: 704px;
+    padding: 100px 0;
+    
   }
 }
 @media only screen and (min-width: 1200px) {
   .unique-components {
-    max-width: 1136px;
+    padding: 117 0 139px;
+    
   }
 }
 .components-tittle {
     width: 283px;
     margin: 0 auto 24px;
-   
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     
-    color: var(--black);
-    
+    color: var(--black-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,7 +41,7 @@
   }
 }
 .components-span {
-    color: var(--orange);
+    color: var(--accent-orange-color);
 }
 
 .components-motto {
@@ -102,51 +98,113 @@
   .components-item {
     margin: 0 auto;
     width: 320px;
+   
   }
 }
 @media only screen and (min-width: 768px) {
   .components-item {
     width: 336px;
+    
   }
 }
 @media only screen and (min-width: 1200px) {
   .components-item {
     width: 270px;
+   
   }
 }
 .components-item:nth-child(1) {
    
     border-radius: 15px;
-    background-color: var(--orange); 
+    background-color: var(--accent-orange-color);
+    border: 1px solid var(--accent-orange-color); 
 }
 .components-item:nth-child(2) {
-    background-color: var(--white-full);
-    border: 1px solid var(--orange);
+    background-color: var(--white-full-color);
+    border: 1px solid var(--accent-orange-color);
    
     border-radius: 15px;
   }
   .components-item:nth-child(4) {
-    background-color: var(--white-full);
-    border: 1px solid var(--orange);
+    background-color: var(--white-full-color);
+    border: 1px solid var(--accent-orange-color);
    
     border-radius: 15px;
   }
 .components-item:nth-child(3) {
     
     border-radius: 15px;
-    background-color: var(--background-deep-violet); 
+    background-color: var(--background-deep-violet-color);
+    border: 1px solid var(--background-deep-violet-color); 
 }
 .components-box {
     display: flex;
     position: relative;
-   
     height: 270px;
     padding-top: 28px;
-    
     align-items: flex-start;
     justify-content: center; 
 }
+.components-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 104%;
+  padding: 20px;
+  background-color: var(--white-full-color);
+  opacity: 0;
+  transform: opacity (0);
+  overflow: auto;
+}
+.components-item:hover,
+.components-item:hover .components-overlay {
+  border: 1px solid var(--white-full-color);
+  opacity: 1;
+  transform: opacity (1);
 
+}
+.components-overlay-tittle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.components-overlay-text {
+  align-items: center;
+  padding: 6px 16px;
+  background-color: var(--accent-orange-color);
+  border-radius: 35px;
+  color: var(--white-full-color);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  
+}
+
+.components-overlay-text-light {
+  background-color: var(--background-main-color);
+  border: 1px solid var(--accent-orange-color);
+  color: var(--black-color);
+  margin-left: 6px;
+}
+
+.components-overlay-description {
+  margin-top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  
+
+}
 .components-card {
     align-items: center;
     width: 224px;
@@ -162,11 +220,11 @@
     position: absolute;
     left: 28px;
     bottom: 28px;
-    color: var(--white-full);
+    color: var(--white-full-color);
 }
 .components-box-item-dark {
     position: absolute;
     left: 28px;
     bottom: 28px;
-    color: var(--black);
+    color: var(--black-color);
 }
