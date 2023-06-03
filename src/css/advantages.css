@@ -8,8 +8,7 @@
     overflow: hidden;
 }
 .advantages-class-section{
-        position:fixed;
-    max-width: 1440px;
+        
     background: var(--background-deep-violet-color); 
 }
 @media screen and (min-width: 320px){
@@ -81,6 +80,16 @@ margin-bottom: 22px;
     max-width: 768px;
 }
 .advantages-class-section{
-    
+ max-width: 768px;
+}
+.advantages-class-ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 60px;
+    margin-top: 50px;
+}
+.div-for-circle{
+    margin: 0;
+    margin-bottom: 22px;
 }
 }
