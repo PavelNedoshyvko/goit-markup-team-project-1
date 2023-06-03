@@ -291,6 +291,12 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .mobile-social-list-icon:is(:hover, :focus) {
+    stroke: var(--accent-orange-color);
+  }
+}
+
 /* ===================/mobile-social-networks=================== */
 
 /* =======================/Mobile-menu ====================*/
