@@ -1,5 +1,6 @@
 
 .unique-components {
+
     padding: 72px 0;
    
 }
@@ -7,27 +8,49 @@
   .unique-components {
     padding: 100px 0;
     
+
+    min-width: 320px;
+    max-width: 335px;
+    padding: 0;
+    margin: 72px auto;
+}
+@media only screen and (min-width: 768px) {
+  .unique-components {
+    max-width: 704px;
+
   }
 }
 @media only screen and (min-width: 1200px) {
   .unique-components {
+
     padding: 117 0 139px;
     
+
+    max-width: 1136px;
+
   }
 }
 .components-tittle {
     width: 283px;
     margin: 0 auto 24px;
+   
+
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     
+
     color: var(--black-color);
+
+    
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,7 +64,10 @@
   }
 }
 .components-span {
+
     color: var(--accent-orange-color);
+
+   
 }
 
 .components-motto {
@@ -98,48 +124,62 @@
   .components-item {
     margin: 0 auto;
     width: 320px;
-   
+
   }
 }
 @media only screen and (min-width: 768px) {
   .components-item {
     width: 336px;
-    
+
   }
 }
 @media only screen and (min-width: 1200px) {
   .components-item {
     width: 270px;
-   
+
   }
 }
 .components-item:nth-child(1) {
    
     border-radius: 15px;
+
     background-color: var(--accent-orange-color);
     border: 1px solid var(--accent-orange-color); 
 }
 .components-item:nth-child(2) {
     background-color: var(--white-full-color);
     border: 1px solid var(--accent-orange-color);
+
+     
+}
+
+
    
     border-radius: 15px;
   }
   .components-item:nth-child(4) {
+
     background-color: var(--white-full-color);
     border: 1px solid var(--accent-orange-color);
+
+   
    
     border-radius: 15px;
   }
 .components-item:nth-child(3) {
     
     border-radius: 15px;
+
     background-color: var(--background-deep-violet-color);
     border: 1px solid var(--background-deep-violet-color); 
+
+    
+
 }
 .components-box {
     display: flex;
     position: relative;
+
     height: 270px;
     padding-top: 28px;
     align-items: flex-start;
@@ -205,6 +245,9 @@
   
 
 }
+
+   
+   
 .components-card {
     align-items: center;
     width: 224px;
@@ -220,11 +263,17 @@
     position: absolute;
     left: 28px;
     bottom: 28px;
+
     color: var(--white-full-color);
+
+   
 }
 .components-box-item-dark {
     position: absolute;
     left: 28px;
     bottom: 28px;
+
     color: var(--black-color);
+
+    
 }
