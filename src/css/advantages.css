@@ -10,7 +10,7 @@
 @media screen and (min-width: 320px){
     .container{
         max-width: 320px;
-        height: 792px;
+        
     }
     .icon{
             display: inline-block;
@@ -19,10 +19,14 @@
             fill: currentColor;
     }
     .advantages-class-section{
-        background: #1E1823;
+        position: fixed;
+        background: var(--background-deep-violet-color); 
     }
    .advantages-class-ul{
-    margin-top: 20px;
+    margin-bottom: 36px;
+   }
+   .advantages-class-li{
+    margin-bottom: 3
    }
     .advantages-class-h1{
        margin-bottom: 10px;
@@ -31,7 +35,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 22px;
-color: #FFFFFF; 
+color: var(--white-full-color); 
     }
    .advantages-class-p{
     font-family: 'Montserrat';
@@ -40,7 +44,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 17px;
 letter-spacing: -0.02em;
-color: rgba(255, 255, 255, 0.7);
+color: var(--text-section-color);
    }
    .div-for-circle{
     width: 62px;
@@ -52,6 +56,7 @@ justify-content: center;
 background-color: none;
 color:#ffffff ;
 border: 1px solid var(--line-section-color);
+margin-top: 20px;
 margin-bottom: 22px;
    }
    .icon-chocolate-bar-svg{
@@ -60,6 +65,12 @@ margin-bottom: 22px;
 }
 @media screen and (min-width: 375px){
     .container{
-        min-width: 375px;
+        max-width: 375px;
     }
+    .advantages-class-p{
+        width: 308px;
+    }
+}
+@media screen and (min-width: 768){
+
 }
