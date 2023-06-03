@@ -280,7 +280,17 @@
 
 .mobile-social-list-icon {
   stroke: var(--white-full-color);
+  width: 22px;
+  height: 22px;
 }
+
+@media only screen and (min-width: 768px) {
+  .mobile-social-list-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 /* ===================/mobile-social-networks=================== */
 
 /* =======================/Mobile-menu ====================*/
