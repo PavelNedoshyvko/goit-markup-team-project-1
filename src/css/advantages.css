@@ -25,6 +25,10 @@
         padding-top: 20px;
         padding-bottom: 36px;
     }
+    .advantages-class-li:nth-child(1){
+        margin: 0;
+        margin-bottom: 38px;
+    }
     .advantages-class-li{
         margin-bottom: 20px;
     }
@@ -77,13 +81,18 @@ margin-bottom: 22px;
     max-width: 768px;
 }
 .advantages-class-section{
- max-width: 768px;
+
+ padding-top: 50px;
+ padding-bottom: 85px;
+}
+.advantages-class-li:nth-child(3){
+    margin-bottom: 0;
 }
 .advantages-class-ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 60px;
-    margin-top: 50px;
+    gap:  50px 60px;
+    
 }
 .div-for-circle{
     margin: 0;
