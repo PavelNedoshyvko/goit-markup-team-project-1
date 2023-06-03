@@ -1,1 +1,3 @@
 https://github.com/PavelNedoshyvko/goit-markup-team-project-1/compare/main...unique-components
+https://github.com/PavelNedoshyvko/goit-markup-team-project-1/pull/2
+https://github.com/PavelNedoshyvko/goit-markup-team-project-1/pull/5
