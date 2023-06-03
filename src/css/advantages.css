@@ -21,15 +21,13 @@
             stroke: currentColor;
             fill: currentColor;
     }
-    
-    .advantages-class-div{
+    .advantages-class-section{
+        padding-top: 20px;
+        padding-bottom: 36px;
     }
-   .advantages-class-ul{
-    margin-bottom: 36px;
-   }
-   .advantages-class-li{
-    margin-bottom: 3
-   }
+    .advantages-class-li{
+        margin-bottom: 20px;
+    }
     .advantages-class-h1{
        margin-bottom: 10px;
 font-family: 'Montserrat';
@@ -58,7 +56,6 @@ justify-content: center;
 background-color: none;
 color:#ffffff ;
 border: 1px solid var(--line-section-color);
-margin-top: 20px;
 margin-bottom: 22px;
    }
    .icon-chocolate-bar-svg{
