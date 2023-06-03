@@ -199,6 +199,10 @@
   /* text-decoration: none; */
 }
 
+/* .mobile-menu:last-child {
+  padding-bottom: 0px;
+} */
+
 .mobile-menu-items {
   font-style: normal;
   font-weight: 500;
@@ -212,10 +216,6 @@
   color: var(--white-full-color);
   padding-bottom: 24px;
 }
-
-/* .mobile-menu-items:last-child {
-  padding-bottom: 0;
-} */
 
 /* .mobile-menu-items:is(:hover, :focus) {
   color: var(--accent-orange-color);
