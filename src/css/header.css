@@ -1,8 +1,9 @@
 body {
   padding: 20px;
 }
+
 .top-header {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 @media only screen and (max-width: 767px) {
