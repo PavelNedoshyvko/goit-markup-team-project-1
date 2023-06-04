@@ -100,8 +100,7 @@
 .hero-thumb {
   /* border-radius: 50px; */
   /* width: 480px; */
-
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .control-btn {
@@ -159,6 +158,11 @@
   margin-right: auto;
 }
 
+.how-its-made:is(:hover, :focus) {
+  color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color);
+}
+
 @media only screen and (min-width: 768px) {
   .how-its-made {
     padding: 14px 40px;
@@ -166,11 +170,6 @@
     width: 183px;
     height: 45px;
   }
-}
-
-.how-its-made:is(:hover, :focus) {
-  color: var(--accent-orange-color);
-  border-color: var(--accent-orange-color);
 }
 
 .scr-btn {
@@ -188,6 +187,12 @@
   margin-top: 32px;
 }
 
+@media only screen and (min-width: 439px) {
+  .scr-btn {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .scr-btn {
     font-size: 14px;
@@ -197,12 +202,6 @@
 
 .scr-btn:is(:hover, :focus) {
   color: var(--accent-orange-color);
-}
-
-@media only screen and (min-width: 439px) {
-  .scr-btn {
-    margin-top: 0;
-  }
 }
 
 /* @media only screen and (min-width: 768px) {
