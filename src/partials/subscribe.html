@@ -1,29 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section class="subscribe">
-        <div>
-            <h1 class="subscribe-title">
-                EXPLORE OUR NEW CHOCOLATE FIRST
-            </h1>
-            <p class="subscribe-description">
-                From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.
-            </p>
-            <button
-              class="subscribe-btn"
-              type="button"
-              data-modal-open
-              aria-label="Subscribe"
-              >
-              Subscribe
-            </button>
+<section class="subscribe">
+    <div class="subscribe-content">
+      <h2 class="subscribe-header">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+      <p class="subscribe-text">
+        From the velvety texture to the rich and complex flavor, our New Chocolate
+        is a true indulgence that will leave you craving more. Made with only the
+        finest ingredients and handcrafted with the utmost care, each piece is a
+        work of art that is sure to please.
+      </p>
+      <button data-modal="5" class="js-open-modal subscribe-btn" type="button">
+        Subscribe
+      </button>
+    </div>
+    <!-- <div class="backdrop is-hidden"> -->
+      <div data-modal="5" class="modal subscribe-modal">
+        <div class="subscribe-modal-picture">
+          <button class="subscribe-btn-close  js-modal-close">
+            <svg class="subscribe-btn-close-icon">
+              <use href="/img/icons.svg#simple-close-btn"></use>
+            </svg>
+          </button>
         </div>
-    </section>
-</body>
-</html>
+        <div class="subscribe-form">
+          <h2 class="subscribe-form-title">
+            Explore our <br />
+            <span class="subscribe-orange-txt">new chocolate</span> first!
+          </h2>
+  
+          <div class="email-window">
+            <label>
+              <input
+                class="subscribe-email"
+                type="email"
+                name="subscribe-email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="subscribe-submit-btn js-modal-close" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  </section>
