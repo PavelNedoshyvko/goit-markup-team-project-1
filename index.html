@@ -13,11 +13,108 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/goit-markup-team-project-1/assets/index-6af436cb.js"></script>
-    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-1de36cc2.css">
+    <script type="module" crossorigin src="/goit-markup-team-project-1/assets/index-78b34445.js"></script>
+    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-ea9c7afb.css">
   </head>
   <body>
-    
+    <header class="top-header">
+  <div class="top-header-container container">
+    <a class="header-logo" href="../index.html"
+      >SIMPLY CHOCOLATE
+      <svg class="header-logo-icon" width="21" height="21">
+        <use href="../img/icons.svg#icon-chocolate-logo"></use>
+      </svg>
+    </a>
+
+           <!-- button-toggle -->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon-burger-btn">
+            <use href="../img/icons.svg#icon-burger-open"></use>
+          </svg>
+        </button>
+
+      <nav class="header-menu-nav">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#home">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#made">How it’s made?</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#products">Our products</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#sellers">Top sellers</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#choco-loved"
+              >Chocolate is loved</a
+            >
+          </li>
+        </ul>
+      </nav>
+        <ul class="header-social-list list">
+          <li class="header-social-list-item">
+            <a href="https://www.instagram.com/" class="header-social-list-link" target="_blank" rel="noreferrer noopener">
+              <svg class="header-social-list-icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-list-item">
+            <a href="https://twitter.com/" class="header-social-list-link" target="_blank" rel="noreferrer noopener">
+              <svg class="header-social-list-icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+    </header>
+
+    </div>
+  </div>
+</header>
+
+ <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+            <svg class="menu-toggle-close-btn" >
+              <use href="../img/icons.svg#icon-x-close"></use>
+            </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="#home" class="mobile-menu-items">Home</a></li>
+        <li><a href="#made" class="mobile-menu-items">How it’s made?</a></li>
+        <li><a href="#products" class="mobile-menu-items">Our products</a></li>
+        <li><a href="#sellers" class="mobile-menu-items">Top sellers</a></li>
+        <li><a href="#choco-loved" class="mobile-menu-items">Chocolate is loved</a></li>
+      </ul>
+
+      <ul class="mobile-socials">
+        <li class="mobile-social-list-item">
+          <a href="https://www.instagram.com/" class="mobile-social-list-link" target="_blank" rel="noreferrer noopener">
+            <svg class="mobile-social-list-icon">
+              <use href="../img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-list-item">
+          <a href="https://twitter.com/" class="mobile-social-list-link" target="_blank" rel="noreferrer noopener">
+            <svg class="mobile-social-list-icon">
+              <use href="../img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
 
     <main>
       
@@ -257,5 +354,11 @@
     
 
     
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
