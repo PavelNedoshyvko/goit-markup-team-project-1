@@ -1,12 +1,3 @@
-@media only screen and (min-width: 768px) {
-  .retreat-inside {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-}
-
 .hero-item {
   padding-top: 395px;
   padding-left: 20px;
@@ -37,10 +28,6 @@
   .hero-item {
     margin-bottom: 50px;
   }
-}
-
-.hero-container {
-  min-width: 295px;
 }
 
 @media (min-device-pixel-ratio: 2),
