@@ -231,7 +231,7 @@
 
   background-color: var(--accent-orange-color);
   bottom: 1px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--cubic-bezier);
 }
 
 .mobile-menu-items:is(:hover, :focus) {
@@ -253,7 +253,7 @@
 
   background-color: var(--accent-orange-color);
   bottom: 1px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--cubic-bezier);
 }
 
 .mobile-menu-items.active {
