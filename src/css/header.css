@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.29;
@@ -30,6 +30,10 @@
 
   color: var(--black-color);
   margin-right: auto;
+}
+
+.header-logo-part {
+  font-style: italic;
 }
 
 .header-logo-icon {
