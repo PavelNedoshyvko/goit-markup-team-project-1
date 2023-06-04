@@ -8,7 +8,6 @@
     overflow: hidden;
 }
 .advantages-class-section{
-        
     background: var(--background-deep-violet-color); 
 }
 @media screen and (min-width: 320px){
@@ -21,15 +20,17 @@
             stroke: currentColor;
             fill: currentColor;
     }
-    
-    .advantages-class-div{
+    .advantages-class-section{
+        padding-top: 20px;
+        padding-bottom: 36px;
     }
-   .advantages-class-ul{
-    margin-bottom: 36px;
-   }
-   .advantages-class-li{
-    margin-bottom: 3
-   }
+    .advantages-class-li:nth-child(1){
+        margin: 0;
+        margin-bottom: 38px;
+    }
+    .advantages-class-li{
+        margin-bottom: 20px;
+    }
     .advantages-class-h1{
        margin-bottom: 10px;
 font-family: 'Montserrat';
@@ -58,7 +59,6 @@ justify-content: center;
 background-color: none;
 color:#ffffff ;
 border: 1px solid var(--line-section-color);
-margin-top: 20px;
 margin-bottom: 22px;
    }
    .icon-chocolate-bar-svg{
@@ -69,8 +69,6 @@ margin-bottom: 22px;
     .container{
         max-width: 375px;
     }
-    .advantages-class-section{
-    }
     .advantages-class-p{
         width: 308px;
     }
@@ -80,16 +78,57 @@ margin-bottom: 22px;
     max-width: 768px;
 }
 .advantages-class-section{
- max-width: 768px;
+
+ padding-top: 50px;
+ padding-bottom: 85px;
+}
+.advantages-class-li:nth-child(3){
+    margin-bottom: 0;
 }
 .advantages-class-ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 60px;
-    margin-top: 50px;
+    gap:  12px 60px;
 }
 .div-for-circle{
     margin: 0;
     margin-bottom: 22px;
 }
 }
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+    .advantages-class-section{
+        padding-bottom: 68px;
+        
+    }
+    .advantages-class-ul{
+        gap: 88px;
+       flex-wrap: nowrap;
+    }
+    .advantages-class-li{
+        margin: 0;
+    }
+    .advantages-class-li:nth-child(1)::before{
+        content: "";
+  position: absolute;
+  width: 124px;
+  height: 1px;
+  background-color: var(--line-section-color);
+  transform: rotate(90deg);
+margin-left: 281px; 
+margin-top: 110px;
+    }
+    .advantages-class-li:nth-child(2)::before{
+        content: "";
+  position: absolute;
+  width: 124px;
+  height: 1px;
+  background-color: var(--line-section-color);
+  transform: rotate(90deg);
+margin-left: 281px; 
+margin-top: 110px;
+    }
+    }
+
