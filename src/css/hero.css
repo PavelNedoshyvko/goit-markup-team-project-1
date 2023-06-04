@@ -1,3 +1,5 @@
+
+
 @media only screen and (min-width: 768px) {
   .retreat-inside {
     padding-left: 40px;
@@ -8,8 +10,6 @@
 }
 
 .hero-item {
-  /* max-width: 1200px; */
-
   padding-top: 395px;
   padding-left: 20px;
   padding-right: 20px;
@@ -95,8 +95,7 @@
 .hero-thumb {
   /* border-radius: 50px; */
   /* width: 480px; */
-
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .control-btn {
@@ -136,7 +135,7 @@
   background-color: var(--button-mobile-menu-close-bg-color);
 }
 
-.how-its-made {
+.how-its-made-lnk {
   padding: 12px 28px;
   min-width: 159px;
   height: 41px;
@@ -153,18 +152,18 @@
   margin-right: auto;
 }
 
+.how-its-made-lnk:is(:hover, :focus) {
+  color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color);
+}
+
 @media only screen and (min-width: 768px) {
-  .how-its-made {
+  .how-its-made-lnk {
     padding: 14px 40px;
 
     width: 183px;
     height: 45px;
   }
-}
-
-.how-its-made:is(:hover, :focus) {
-  color: var(--accent-orange-color);
-  border-color: var(--accent-orange-color);
 }
 
 .scr-btn {
@@ -184,6 +183,12 @@
 
 @media only screen and (min-width: 768px) {
   .scr-btn {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .scr-btn {
     font-size: 14px;
     line-height: 1.29;
   }
@@ -191,12 +196,6 @@
 
 .scr-btn:is(:hover, :focus) {
   color: var(--accent-orange-color);
-}
-
-@media only screen and (min-width: 439px) {
-  .scr-btn {
-    margin-top: 0;
-  }
 }
 
 /* @media only screen and (min-width: 768px) {
