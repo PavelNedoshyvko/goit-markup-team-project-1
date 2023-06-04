@@ -1,5 +1,3 @@
-
-
 @media only screen and (min-width: 768px) {
   .retreat-inside {
     padding-left: 40px;
@@ -90,12 +88,6 @@
     font-size: 28px;
     line-height: 1.21;
   }
-}
-
-.hero-thumb {
-  /* border-radius: 50px; */
-  /* width: 480px; */
-  /* overflow: hidden; */
 }
 
 .control-btn {
