@@ -216,6 +216,10 @@
   color: var(--white-full-color);
   /* margin-bottom: 24px; */
 }
+.mobile-menu-items:is(:hover, :focus) {
+  color: var(--accent-orange-color);
+  font-weight: 600;
+}
 
 .mobile-menu-items:not(:last-child) {
   margin-bottom: 24px;
@@ -236,10 +240,6 @@
   background-color: var(--accent-orange-color);
   bottom: 1px;
   transition: var(--cubic-bezier);
-}
-
-.mobile-menu-items:is(:hover, :focus) {
-  color: var(--accent-orange-color);
 }
 
 .mobile-menu-items:is(:hover, :focus)::after {
