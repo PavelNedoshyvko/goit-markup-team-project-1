@@ -2,39 +2,24 @@
   padding-top: 72px;
   padding-bottom: 72px;
 }
-@media only screen and (min-width: 375px) {
-  .unique-components {
-    padding: 72px 0;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .unique-components {
-    padding: 100px 0;
 
-    min-width: 320px;
-    max-width: 335px;
-    padding: 0;
-    margin: 72px auto;
-  }
-}
 @media only screen and (min-width: 768px) {
   .unique-components {
-    max-width: 704px;
-  }
+    padding-top: 100px;
+    padding-bottom: 100px;
+     }
 }
+
 @media only screen and (min-width: 1200px) {
   .unique-components {
-    padding: 117 0 139px;
-
-    max-width: 1136px;
+    padding-top: 117px;
+    padding-bottom: 139px;
+    
   }
 }
 .components-tittle {
   width: 283px;
   margin: 0 auto 24px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -42,7 +27,6 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-
   color: var(--black-color);
 }
 
@@ -61,15 +45,11 @@
 }
 
 .components-motto {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: -0.02em;
-
   color: var(--black-color);
 }
 @media only screen and (min-width: 768px) {
@@ -85,7 +65,6 @@
 }
 @media only screen and (min-width: 768px) {
   .components-list {
-    width: 704px;
     gap: 32px;
   }
 }
@@ -113,15 +92,13 @@
 @media only screen and (max-width: 767px) {
   .components-item {
     margin: 0 auto;
-    width: 320px;
-
+    width: 100%;
     overflow: hidden;
   }
 }
 @media only screen and (min-width: 768px) {
   .components-item {
     width: 336px;
-
     overflow: hidden;
   }
 }
@@ -132,7 +109,6 @@
 }
 .components-item:nth-child(1) {
   border-radius: 15px;
-
   background-color: var(--accent-orange-color);
   border: 1px solid var(--accent-orange-color);
 }
@@ -174,14 +150,14 @@
   height: 104%;
   padding: 20px;
   background-color: var(--white-full-color);
-
+  opacity: 0;
   transform: opacity(0);
   overflow: auto;
 }
 .components-item:hover,
 .components-item:hover .components-overlay {
   border: 1px solid var(--white-full-color);
-  transform: opacity(1);
+ 
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
@@ -219,8 +195,6 @@
 }
 
 .components-overlay-tittle {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -249,12 +223,10 @@
 
 .components-overlay-description {
   margin-top: 20px;
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -0.02em;
+ 
 }
 
 .components-card {
