@@ -194,9 +194,9 @@
   }
 }
 
-.scr-btn:is(:hover, :focus) {
+/* .scr-btn:is(:hover, :focus) {
   color: var(--accent-orange-color);
-}
+} */
 
 /* @media only screen and (min-width: 768px) {
   .scr-btn {
@@ -216,9 +216,9 @@
   justify-content: center;
 }
 
-.bck-color-icon:is(:hover, :focus) {
+/* .bck-color-icon:is(:hover, :focus) {
   background-color: var(--accent-orange-color);
-}
+} */
 
 .scr-btn-icon {
   fill: var(--accent-orange-color);
@@ -228,9 +228,9 @@
   padding: 0;
 }
 
-.scr-btn-icon:is(:hover, :focus) {
+/* .scr-btn-icon:is(:hover, :focus) {
   fill: var(--white-full-color);
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .bck-color-icon {
