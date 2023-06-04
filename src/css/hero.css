@@ -97,12 +97,6 @@
   }
 }
 
-.hero-thumb {
-  /* border-radius: 50px; */
-  /* width: 480px; */
-  /* overflow: hidden; */
-}
-
 .control-btn {
   display: flex;
   flex-wrap: wrap;
