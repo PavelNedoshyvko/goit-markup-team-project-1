@@ -15,6 +15,7 @@
 
   background-color: var(--button-mobile-menu-close-bg-color);
   margin: 0 auto;
+  margin-bottom: 72px;
 
   /* background-repeat: no-repeat; */
   /* background-position: center; */
@@ -29,6 +30,12 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-item {
+    margin-bottom: 50px;
   }
 }
 
@@ -112,6 +119,7 @@
   min-width: 120px;
   height: 41px;
   margin-right: 14px;
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,6 +150,7 @@
 
   color: var(--white-full-color);
   margin-right: auto;
+  transition: border var(--cubic-bezier), color var(--cubic-bezier);
 }
 
 .how-its-made-lnk:is(:hover, :focus) {
@@ -171,6 +180,7 @@
 
   color: var(--white-full-color);
   margin-top: 32px;
+  transition: color var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
@@ -190,11 +200,12 @@
   color: var(--accent-orange-color);
 }
 
-/* @media only screen and (min-width: 768px) {
-  .scr-btn {
-    justify-content: flex-end;
-  }
-} */
+.scr-btn:is(:hover, :focus) .scr-btn-icon {
+  fill: var(--white-full-color);
+}
+.scr-btn:is(:hover, :focus) .bck-color-icon {
+  background-color: var(--accent-orange-color);
+}
 
 .bck-color-icon {
   background-color: var(--white-full-color);
@@ -206,10 +217,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.bck-color-icon:is(:hover, :focus) {
-  background-color: var(--accent-orange-color);
+  transition: background-color var(--cubic-bezier);
 }
 
 .scr-btn-icon {
@@ -218,10 +226,7 @@
   height: 16px;
 
   padding: 0;
-}
-
-.scr-btn-icon:is(:hover, :focus) {
-  fill: var(--white-full-color);
+  transition: fill var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
