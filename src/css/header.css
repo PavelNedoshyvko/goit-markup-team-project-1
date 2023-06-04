@@ -50,12 +50,6 @@
   }
 }
 
-.header-menu {
-}
-
-.header-menu-nav {
-}
-
 @media only screen and (max-width: 1199px) {
   .header-menu-nav {
     display: none;
@@ -71,8 +65,7 @@
   /* margin-left: 188px; */
   /* margin-right: 137px; */
 }
-.header-menu-item {
-}
+
 @media only screen and (min-width: 1200px) {
   .header-menu-link {
     padding-top: 28px;
@@ -353,8 +346,6 @@
   }
 }
 
-.header-social-list-item {
-}
 .header-social-list-link {
   display: flex;
   align-items: center;
