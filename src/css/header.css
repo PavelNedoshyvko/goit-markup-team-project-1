@@ -89,6 +89,7 @@
   letter-spacing: -0.02em;
 
   color: var(--black-color);
+  transition: color var(--cubic-bezier);
 }
 
 .header-menu-link:is(:hover, :focus) {
@@ -150,7 +151,7 @@
   display: flex;
   flex-direction: column;
 
-  width: 58.6%;
+  width: 220px;
   height: 100%;
 
   background-color: var(--background-deep-violet-color);
@@ -158,6 +159,12 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container {
+    width: 290px;
+  }
 }
 
 .menu-container.is-open {
@@ -206,7 +213,7 @@
   letter-spacing: -0.02em;
 
   color: var(--white-full-color);
-  /* margin-bottom: 24px; */
+  transition: color var(--cubic-bezier);
 }
 .mobile-menu-items:is(:hover, :focus) {
   color: var(--accent-orange-color);
@@ -231,7 +238,6 @@
 
   background-color: var(--accent-orange-color);
   bottom: 1px;
-  transition: var(--cubic-bezier);
 }
 
 .mobile-menu-items:is(:hover, :focus)::after {
@@ -249,7 +255,7 @@
 
   background-color: var(--accent-orange-color);
   bottom: 1px;
-  transition: var(--cubic-bezier);
+  /* transition: background-color var(--cubic-bezier); */
 }
 
 .mobile-menu-items.active {
@@ -288,6 +294,7 @@
   stroke: var(--white-full-color);
   width: 22px;
   height: 22px;
+  transition: stroke var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
@@ -348,6 +355,7 @@
 .header-social-list-icon {
   stroke: var(--black-color);
   fill: none;
+  transition: stroke var(--cubic-bezier);
 }
 
 .header-social-list-icon:is(:hover, :focus) {
