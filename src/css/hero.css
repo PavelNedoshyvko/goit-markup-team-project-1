@@ -140,7 +140,7 @@
   background-color: var(--button-mobile-menu-close-bg-color);
 }
 
-.how-its-made {
+.how-its-made-lnk {
   padding: 12px 28px;
 
   min-width: 159px;
@@ -158,13 +158,13 @@
   margin-right: auto;
 }
 
-.how-its-made:is(:hover, :focus) {
+.how-its-made-lnk:is(:hover, :focus) {
   color: var(--accent-orange-color);
   border-color: var(--accent-orange-color);
 }
 
 @media only screen and (min-width: 768px) {
-  .how-its-made {
+  .how-its-made-lnk {
     padding: 14px 40px;
 
     width: 183px;
