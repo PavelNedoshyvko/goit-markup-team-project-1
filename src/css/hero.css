@@ -1,3 +1,14 @@
+
+
+@media only screen and (min-width: 768px) {
+  .retreat-inside {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
 .hero-item {
   padding-top: 395px;
   padding-left: 20px;
@@ -42,7 +53,9 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../img/hero/hero-tab@2x.jpg);
+    .hero-item {
+      background-image: url(../img/hero/hero-tab@2x.jpg);
+    }
   }
 }
 
@@ -53,7 +66,9 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../img/hero/hero-desk@2x.jpg);
+    .hero-item {
+      background-image: url(../img/hero/hero-desk@2x.jpg);
+    }
   }
 }
 
@@ -122,7 +137,6 @@
 
 .how-its-made-lnk {
   padding: 12px 28px;
-
   min-width: 159px;
   height: 41px;
 
