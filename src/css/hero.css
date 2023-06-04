@@ -119,6 +119,7 @@
   min-width: 120px;
   height: 41px;
   margin-right: 14px;
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
@@ -149,6 +150,7 @@
 
   color: var(--white-full-color);
   margin-right: auto;
+  transition: border var(--cubic-bezier), color var(--cubic-bezier);
 }
 
 .how-its-made-lnk:is(:hover, :focus) {
@@ -178,6 +180,7 @@
 
   color: var(--white-full-color);
   margin-top: 32px;
+  transition: color var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
@@ -214,6 +217,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--cubic-bezier);
 }
 
 .scr-btn-icon {
@@ -222,6 +226,7 @@
   height: 16px;
 
   padding: 0;
+  transition: fill var(--cubic-bezier);
 }
 
 @media only screen and (min-width: 768px) {
