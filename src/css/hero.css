@@ -1,32 +1,25 @@
-@media only screen and (min-width: 768px) {
-  .retreat-inside {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-}
-
-.hero-item {
+.hero-container {
   padding-top: 395px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
 
-  background-color: var(--button-mobile-menu-close-bg-color);
   margin: 0 auto;
   margin-bottom: 72px;
-
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  background-image: url(../img/hero/hero-mob.jpg);
+  background-color: var(--button-mobile-menu-close-bg-color);
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(../img/hero/hero-mob.jpg);
 
   background-size: cover;
   border-radius: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-item {
+  .hero-container {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -34,44 +27,40 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .hero-item {
+  .hero-container {
     margin-bottom: 50px;
   }
-}
-
-.hero-container {
-  min-width: 295px;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-item {
+  .hero-container {
     background-image: url(../img/hero/hero-mob@2x.jpg);
   }
 }
 
 @media only screen and (min-width: 376px) {
-  .hero-item {
+  .hero-container {
     background-image: url(../img/hero/hero-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-item {
+    .hero-container {
       background-image: url(../img/hero/hero-tab@2x.jpg);
     }
   }
 }
 
 @media only screen and (min-width: 769px) {
-  .hero-item {
+  .hero-container {
     background-image: url(../img/hero/hero-desk.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-item {
+    .hero-container {
       background-image: url(../img/hero/hero-desk@2x.jpg);
     }
   }
