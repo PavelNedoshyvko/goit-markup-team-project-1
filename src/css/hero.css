@@ -1,24 +1,4 @@
-.retreat-inside {
-  /* width: 100%; */
-  /* max-width: var(--breakpoint-mobile); */
-  /* padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto; */
-}
-
-/* @media only screen and (min-width: 768px) {
-  .retreat-inside {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-} */
-
 .hero-item {
-  /* max-width: 1200px; */
-
   padding-top: 395px;
   padding-left: 20px;
   padding-right: 20px;
