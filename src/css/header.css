@@ -150,13 +150,14 @@
 .menu-container {
   position: fixed;
   top: 0;
-  left: 0;
+  /* left: 0; */
+  right: 0;
 
   display: flex;
   flex-direction: column;
 
-  width: 100vw;
-  height: 100vh;
+  width: 58.6%;
+  height: 100%;
 
   background-color: var(--background-deep-violet-color);
   z-index: 999;
