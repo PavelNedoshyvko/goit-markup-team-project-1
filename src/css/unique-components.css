@@ -85,8 +85,8 @@
 }
 @media only screen and (min-width: 1200px) {
   .components-list {
-    width: 1137px;
-    gap: 19px;
+    width: 1136px;
+    gap: 18px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -94,17 +94,20 @@
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
+    transition: transform 250ms ease-in-out;
   }
 }
 @media only screen and (min-width: 768px) {
   .components-item {
     width: 336px;
     overflow: hidden;
+    transition: transform 250ms ease-in-out;
   }
 }
 @media only screen and (min-width: 1200px) {
   .components-item {
     width: 270px;
+    
   }
 }
 .components-item:nth-child(1) {
@@ -144,6 +147,7 @@
 
 .components-overlay {
   position: absolute;
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -203,16 +207,21 @@
   margin-bottom: 14px;
 }
 
+.components-btn {
+  display: inline;
+}
 .components-overlay-text {
   align-items: center;
   padding: 6px 16px;
   background-color: var(--accent-orange-color);
+  border: 1px solid var(--accent-orange-color);
   border-radius: 35px;
   color: var(--white-full-color);
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
 }
+
 
 .components-overlay-text-light {
   background-color: var(--background-main-color);
