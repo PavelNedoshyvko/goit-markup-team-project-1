@@ -111,8 +111,12 @@
 .footer-mobile-contacts {
   display: flex;
   flex-direction: row;
-  gap: 113px;
 }
+
+.footer-contact {
+  flex-grow: 1;
+}
+
 @media screen and (min-width: 768px) {
   .footer-mobile-contacts {
     gap: 50px;
