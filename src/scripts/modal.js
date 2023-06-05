@@ -1,10 +1,8 @@
 (() => {
   const refs = {
     // two buttons one window
-    openBuynowModalBtn: document.querySelector('[data-buynow-modal-open-1]'),
-    openBuynowModalBtnSecond: document.querySelector(
-      '[data-buynow-modal-open-2]'
-    ),
+    openBuynowModalBtn: document.querySelector('[data-buynow-modal-open-first]'),
+    openBuynowModalBtnSecond: document.querySelector('[data-buynow-modal-open-second]'),
     closeBuynowModalBtn: document.querySelector('[data-buynow-modal-close]'),
     modalBuynow: document.querySelector('[data-buynow-modal]'),
     // review modal
