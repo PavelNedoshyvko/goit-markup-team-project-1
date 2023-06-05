@@ -210,7 +210,7 @@
   letter-spacing: -0.02em;
 
   color: var(--white-full-color);
-  transition: color var(--cubic-bezier);
+  transition: color var(--cubic-bezier), font-weight var(--cubic-bezier);
 }
 .mobile-menu-items:is(:hover, :focus) {
   color: var(--accent-orange-color);
