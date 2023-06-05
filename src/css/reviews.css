@@ -1,6 +1,14 @@
 .section-review {
   display: flex;
+  margin-bottom: 72px;
 }
+
+@media screen and (min-width: 768px) {
+  .section-review {
+    margin-bottom: 128px;
+  }
+}
+
 .title-chocolate-review {
   letter-spacing: -0.03em;
   text-transform: uppercase;
