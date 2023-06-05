@@ -18,7 +18,7 @@
   border-radius: 30px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .hero-container {
     padding-left: 40px;
     padding-right: 40px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 767.9px) and (max-width: 1199px) {
   .hero-container {
     margin-bottom: 50px;
   }
@@ -102,7 +102,7 @@
   margin-bottom: 32px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .hero-text {
     max-width: 484px;
 
@@ -136,7 +136,7 @@
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .buy-btn {
     padding: 14px 40px;
     min-width: 144px;
@@ -172,7 +172,7 @@
   border-color: var(--accent-orange-color);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .how-its-made-lnk {
     padding: 14px 40px;
 
@@ -197,13 +197,13 @@
   transition: color var(--cubic-bezier);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .scr-btn {
     margin-top: 0;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .scr-btn {
     font-size: 14px;
     line-height: 1.29;
@@ -243,7 +243,7 @@
   transition: fill var(--cubic-bezier);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767.9px) {
   .bck-color-icon {
     width: 38px;
     height: 38px;
