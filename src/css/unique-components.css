@@ -147,7 +147,6 @@
 
 .components-overlay {
   position: absolute;
-  
   top: 0;
   left: 0;
   width: 100%;
@@ -157,6 +156,12 @@
   opacity: 0;
   transform: opacity(0);
   overflow: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .components-overlay {
+    padding-right: 4px;
+  }
 }
 .components-item:hover,
 .components-item:hover .components-overlay {
@@ -204,13 +209,14 @@
   line-height: 22px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .components-btn {
   display: inline;
+
 }
-.components-overlay-text {
+.components-overlay-btn {
   align-items: center;
   padding: 6px 16px;
   background-color: var(--accent-orange-color);
@@ -223,7 +229,7 @@
 }
 
 
-.components-overlay-text-light {
+.components-overlay-btn-light {
   background-color: var(--background-main-color);
   border: 1px solid var(--accent-orange-color);
   color: var(--black-color);
@@ -231,11 +237,10 @@
 }
 
 .components-overlay-description {
-  margin-top: 20px;
+  margin-top: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
- 
 }
 
 .components-card {
