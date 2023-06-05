@@ -45,7 +45,7 @@
   }
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 767.9px) {
   .hero-container {
     background-image: linear-gradient(
         180deg,
@@ -68,7 +68,7 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1199.9px) {
   .hero-container {
     background-image: linear-gradient(
         180deg,
@@ -92,7 +92,7 @@
 }
 
 .hero-text {
-  max-width: 299px;
+  max-width: 295px;
   color: var(--white-full-color);
   font-style: normal;
   font-weight: 500;
