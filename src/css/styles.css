@@ -27,7 +27,7 @@
   font-size: 16px;
   font-weight: 400;
 
-  font-synthesis: none;
+  /* font-synthesis: none; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -40,7 +40,6 @@
   --breakpoint-desktop: 1200px;
 
   --min-width-mobile: 320px;
-  --primary-container-width-mobile: 335px;
   --outer-container-width-mobile: 375px;
 
   --primary-container-width-tablet: 704px;
@@ -56,14 +55,15 @@
   --black-color: #111111;
   --accent-orange-color: #fd9222;
   --white-full-color: #ffffff;
-  --text-section-color: rgb(255, 255, 255, 0.7);
-  --text-cards-color: rgb(17, 17, 17, 0.7);
-  --text-placeholder-color: rgb(64, 64, 64, 0.3);
-  --button-card-border-color: rgb(17, 17, 17, 0.1);
+  --text-section-color: rgba(255, 255, 255, 0.7);
+  --text-cards-color: rgba(17, 17, 17, 0.7);
+  --text-placeholder-color: rgba(64, 64, 64, 0.3);
+  --button-card-border-color: rgba(17, 17, 17, 0.1);
+  --card-box-shadow-color: rgba(215, 228, 249, 0.25);
   --button-mobile-menu-close-bg-color: #fcf1e0;
-  --line-section-color: rgb(255, 255, 255, 0.5);
-  --line-footer-color: rgb(255, 255, 255, 0.1);
-  --input-border-color: rgb(17, 17, 17, 0.05);
+  --line-section-color: rgba(255, 255, 255, 0.5);
+  --line-footer-color: rgba(255, 255, 255, 0.1);
+  --input-border-color: rgba(17, 17, 17, 0.05);
 
   /* Transitions and animations */
 
