@@ -10,12 +10,8 @@
     closeReviewModalBtn: document.querySelector('[data-review-modal-close]'),
     modalReview: document.querySelector('[data-review-modal]'),
     // subscribe modal
-    openSubscribeModalBtn: document.querySelector(
-      '[data-subscribe-modal-open]'
-    ),
-    closeSubscribeModalBtn: document.querySelector(
-      '[data-subscribe-modal-close]'
-    ),
+    openSubscribeModalBtn: document.querySelector('[data-subscribe-modal-open]'),
+    closeSubscribeModalBtn: document.querySelector('[data-subscribe-modal-close]'),
     modalSubscribe: document.querySelector('[data-subscribe-modal]'),
   };
   refs.openBuynowModalBtn.addEventListener('click', toggleModal);
