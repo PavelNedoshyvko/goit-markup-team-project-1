@@ -3,7 +3,6 @@
   margin: 0 20px;
 }
 .top-sellers .responsive {
-  
   width: 100%;
 }
 .top-sellers-title {
@@ -57,26 +56,13 @@
   color: #ffffff;
 }
 .top-sellers-button:hover {
-    background: #FCF1E0;
+  background: #fcf1e0;
 }
 .buy-now:hover {
-    color: #FD9222;
+  color: #fd9222;
 }
-/* Modal window  */
-.buy-modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 311px;
-  height: 994px;
-  background: #fafafa;
-  border-radius: 15px;
-}
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+
+
 /* Tablet  */
 @media only screen and (min-width: 768px) {
   .top-sellers-container {

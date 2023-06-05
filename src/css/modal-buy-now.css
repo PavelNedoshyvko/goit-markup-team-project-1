@@ -1,1 +1,101 @@
+/* Modal window  */
+.buy-modal-container {
+  position: absolute;
 
+  width: 311px;
+  height: 994px;
+  background: #fafafa;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px 24px;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.buy-modal-window-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fd9222;
+  margin-bottom: 32px;
+}
+.buy-modal-window-span {
+  color: black;
+}
+.modal-list-container {
+  display: flex;
+  margin-bottom: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+.buy-now-list {
+  gap: 8px;
+}
+.grams-button {
+  margin-left: auto;
+  width: 70px;
+  height: 29px;
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-right: 16px;
+}
+
+.input-container {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.surname-container {
+  margin-top: 14px;
+}
+
+.buy-form-input {
+  padding: 14px 18px;
+  gap: 40px;
+  width: 263px;
+  height: 45px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+}
+.buy-form-comment {
+  padding: 14px 18px 60px;
+  gap: 40px;
+  width: 263px;
+  height: 91px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+}
+.buy-form-button-submit {
+  background: #fd9222;
+  border-radius: 100px;
+  border: none;
+  width: 109px;
+  height: 41px;
+  padding: 12px 28px;
+}
+.form-submit-span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.buy-form-button-submit:hover {
+    background: #fcf1e0;
+} 
+.form-submit-span:hover {
+    color: #fd9222;
+}
