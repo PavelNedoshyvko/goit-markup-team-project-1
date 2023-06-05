@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
-  
 }
 
 .subscribe-content {
@@ -46,7 +45,7 @@
   color: var(--white-full-color);
   border-radius: 100px;
   margin: 0 auto;
-
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
