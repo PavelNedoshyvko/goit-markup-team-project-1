@@ -104,9 +104,6 @@
 /* adaptive */
 
 @media (max-width: 1158px) {
-  .container {
-    /* max-width: 100%; */
-  }
 }
 
 @media screen and (max-width: 767px) {
