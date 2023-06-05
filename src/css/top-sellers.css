@@ -1,10 +1,10 @@
+.top-sellers {
+}
 .top-sellers-section {
   max-width: 100%;
   margin: 0 20px;
 }
-.top-sellers .responsive {
-  width: 100%;
-}
+
 .top-sellers-title {
   font-family: 'Montserrat';
   font-style: normal;
@@ -18,6 +18,12 @@
 }
 .title-span {
   color: black;
+}
+.top-sellers-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
 }
 .top-sellers-image {
   border-radius: 15px;
@@ -33,17 +39,36 @@
   line-height: 18px;
   letter-spacing: -0.02em;
   color: #111111;
+  width: 306px;
+  padding-left: 32px;
+  
 }
-.button-container {
+.top-sellers-block {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin: 32px 0 164px 0;
+ 
 }
+.top-sellers-button-container {
+display: block;
+
+margin-left: auto;
+padding-right: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .top-sellers-text {
+    min-width: 406px;
+  }
+}
+
 .top-sellers-button {
   background: #fd9222;
   border-radius: 100px;
   border: none;
   width: 120px;
   height: 41px;
+  
 }
 .buy-now {
   width: 64px;
@@ -54,6 +79,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  
 }
 .top-sellers-button:hover {
   background: #fcf1e0;
@@ -62,44 +88,8 @@
   color: #fd9222;
 }
 
-
-/* Tablet  */
-@media only screen and (min-width: 768px) {
-  .top-sellers-container {
-    max-width: 704px;
-  }
-  .top-sellers-title {
-    margin-bottom: 50px;
-  }
-  .top-sellers-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px 16px;
-  }
-  .top-sellers-button {
-    margin-left: auto;
-  }
-  .top-sellers-image {
-    margin-top: 0;
-  }
-}
-
-/* Desktop */
-@media only screen and (min-width: 1200px) {
-  .top-sellers-container {
-    width: 1136px;
-  }
-  .top-sellers-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0 16px;
-  }
-  .top-sellers-image {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 1200px) {
-  .top-sellers-desktop-image {
+@media screen and (max-width: 1199.9px) {
+  .top-sellers-none {
     display: none;
   }
 }
