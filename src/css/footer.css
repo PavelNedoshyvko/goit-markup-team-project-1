@@ -59,15 +59,29 @@
 .footer-orange-text {
   color: var(--accent-orange-color);
 }
-/* .footer-mobile-contacts::after {
+.footer-nav::before {
   content: '';
-  display: block;
-  position: absolute;
-  width: 335px;
+  display: inline-block;
 
-  border: 1px solid tomato;
-  transform: rotate(180deg);
-} */
+  position: absolute;
+  height: 1px;
+  width: 335px;
+  background: var(--line-footer-color);
+  margin-top: -33px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-nav::before {
+    width: 704px;
+    margin-top: -26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-nav::before {
+    width: 1136px;
+  }
+}
 
 .footer-discription {
   font-weight: 500;
