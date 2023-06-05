@@ -149,7 +149,7 @@
   min-width: 321px;
   padding: 20px 14px;
   padding-bottom: 0;
-  list-style-image: url(../img/how-its-made/dot.svg);
+  list-style-image: url(/img/how-its-made/dot.svg);
   /* list-style-type: disc; */
 }
 @media screen and (min-width: 768px) {
