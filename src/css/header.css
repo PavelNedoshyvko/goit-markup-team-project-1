@@ -351,6 +351,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .header-social-list-icon {
   stroke: var(--black-color);
   fill: none;
