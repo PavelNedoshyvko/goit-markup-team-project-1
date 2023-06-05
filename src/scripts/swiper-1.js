@@ -1,23 +1,34 @@
-import Swiper from 'swiper/bundle';
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+// import Swiper JS
+import Swiper, { Pagination } from 'swiper';
+// import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable:true,
-  },
+Swiper.use([Pagination]);
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+const swiper = new Swiper('.section-review .swiper', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
 
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: '.swiper-scrollbar',
-  // },
+    breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        },
+        767: {
+          slidesPerView: 2,
+          spaceBetween: 24
+        },
+        1159: {
+          slidesPerView: 3,
+          spaceBetween: 24
+        },
+    },
+  
+    // If we need pagination
+    pagination: {
+        el: ".section-review .swiper-pagination",
+        clickable: true,
+    },
 });

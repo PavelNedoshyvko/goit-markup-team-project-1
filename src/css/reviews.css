@@ -1,0 +1,115 @@
+.section-review {
+    display: flex;
+}
+.title-chocolate-review {
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black-color);
+    text-align: center;
+    margin-bottom: 49px;
+}
+.chocolate-review {
+    color: var(--accent-orange-color);
+}
+.section-review .swiper {
+    width: 100%;
+    margin-bottom: 44px;
+}
+.section-review .swiper-wrapper {
+    margin-bottom: 51px;
+}
+.section-review .swiper-slide {
+    padding-top: 40px;
+}
+.list-review {
+    padding: 56px 24px 26px;
+    position: relative;
+    height: 200px;
+    background: var(--white-full-color);
+    border: 1px solid var(--button-card-border-color);
+    box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+    border-radius: 15px;
+}
+.subtitle-review {
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 24px;
+}
+.text-review{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--text-cards-color);
+}
+.images-list-review {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -40px;
+}
+
+.section-review .swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%;
+}
+.section-review .swiper-pagination .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background: rgba(17, 17, 17, 0.1);
+    caret-color: transparent;
+}
+.section-review .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 28px;
+    height: 13px;
+    border-radius: 10px;
+    background: #FD9222;
+}
+.button-leave-review {
+    margin: auto;
+    font-weight: 600;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 14px 40px;
+    border: 1px solid var(--accent-orange-color);
+    border-radius: 100px;
+    color: var(--black-color);
+    background-color: var(--background-main-color);
+}
+
+/* adaptive */
+
+@media (max-width: 1158px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+} 
+
+@media screen and (max-width: 480px) {
+    .title-chocolate-review {
+        margin-bottom: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+
+}
