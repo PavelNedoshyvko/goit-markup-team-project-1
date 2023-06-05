@@ -162,3 +162,30 @@
     gap: 24px;
   }
 }
+
+.footer-social-list-icon {
+  transition: stroke var(--cubic-bezier);
+}
+
+.footer-social-list-icon:hover,
+.footer-social-list-icon:focus {
+  stroke: var(--accent-orange-color);
+}
+
+.footer-contact-link {
+  transition: color var(--cubic-bezier);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-orange-color);
+}
+
+.footer-menu-link {
+  transition: color var(--cubic-bezier);
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--accent-orange-color);
+}
