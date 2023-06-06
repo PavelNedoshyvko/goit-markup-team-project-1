@@ -18,7 +18,7 @@
     />
     
     <script type="module" crossorigin src="/goit-markup-team-project-1/assets/index-31db8db7.js"></script>
-    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-9f9be058.css">
+    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-30dfa563.css">
   </head>
   <body>
     <header class="top-header" id="home">
@@ -940,7 +940,7 @@
     </div>
 
     <!-- <div class="swiper-pagination"></div> -->
-    <button type="button" class="button-leave-review">Leave a review</button>
+    <button type="button" class="button-leave-review js-open-modal" data-modal="4" >Leave a review</button>
   </div>
 </section>
 
@@ -1163,7 +1163,65 @@
   </form>
 </div>
 
-    
+    <!-- Buy window -->
+<div class="modal buy-modal-container" data-modal="4" >
+    <button type="button" class="buy-window-modal-button js-modal-close">
+      <svg class="buy-window-modal-icon" width="24" height="24">
+        <use href="../img/icons.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <h2 class="buy-modal-window-title">
+        leave a review about <span class="buy-modal-window-span">our chocolate</span>
+    </h2>
+    <form class="buy-now-form">
+      <label class="buy-form-label" autofocus>
+        <div class="input-container">
+          <input
+            class="buy-form-input"
+            type="name"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+      </label>
+      <label class="buy-form-label" autofocus>
+        <div class="input-container">
+          <input
+            class="buy-form-input"
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+      </label>
+      <label class="buy-form-label" autofocus>
+        <div class="input-container">
+          <input
+            class="buy-form-input number"
+            type="number"
+            name="number"
+            placeholder="Phone number"
+          />
+        </div>
+      </label>
+      <label class="buy-form-label" autofocus>
+        <div class="input-container">
+          <input
+            class="buy-form-comment"
+            type="text"
+            name="comment"
+            placeholder="Enter text"
+          />
+        </div>
+      </label>
+      <div class="buy-form-submit">
+        <button type="submit" class="buy-form-button-submit">
+          <span class="form-submit-span">Send</span>
+        </button>
+      </div>
+    </form>
+  </div>
+  
     <div class="modal subscribe-modal" data-modal="1">
   <div class="subscribe-modal-picture">
     <button class="subscribe-btn-close js-modal-close">
