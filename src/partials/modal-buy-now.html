@@ -1,147 +1,72 @@
 <!-- Buy window -->
-
-<div class="buy-modal-container is-hidden">
-  <div class="buy-modal-window">
-    <div class="close-modal-button">
-      <button type="button" class="buy-window-modal-button">
-        <svg class="buy-window-modal-icon" width="24" height="24">
-          <use href="../img/icons.svg#icon-x-close"></use>
-        </svg>
-      </button>
-    </div>
-    <h2 class="buy-modal-window-title">
-      BUY <span class="buy-modal-window-span">NOW</span>
-    </h2>
-    <ul class="buy-now-list">
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
-            srcset="../img/top-sellers/buy-now-image/first-tab-img.jpg 120w"
-            sizes="(min-width: 768px) 120px"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">100 g</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
-            srcset="../img/top-sellers/buy-now-image/second-tab-img.jpg 120w"
-            sizes="(min-width: 768px) 120px"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">200 g</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
-            srcset="../img/top-sellers/buy-now-image/third-tab-img.jpg 120w"
-            sizes="(min-width: 768px) 120px"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">300 g</span>
-          </button>
-        </div>
-      </li>
-    </ul>
-    <form class="buy-now-form">
-      <p class="buy-form-text">Personal information</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
+<div class="modal buy-modal-container" data-modal="2">
+  <button type="button" class="buy-window-modal-button js-modal-close">
+    <svg class="buy-window-modal-icon" width="24" height="24">
+      <use href="../img/icons.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <h2 class="buy-modal-window-title">
+    BUY <span class="buy-modal-window-span">NOW</span>
+  </h2>
+  <ul class="buy-now-list">
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">100 g</span>
+        </button>
+      </div>
+    </li>
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">200 g</span>
+        </button>
+      </div>
+    </li>
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">300 g</span>
+        </button>
+      </div>
+    </li>
+  </ul>
+  <form class="buy-now-form">
+    <p>Personal information</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="name"
+          name="name"
+          placeholder="Name"
+        />
+        <div class="surname-container">
           <input
             class="buy-form-input"
             type="name"
-            name="name"
-            placeholder="Name"
-          />
-          <div class="surname-container">
-            <input
-              class="buy-form-input"
-              type="name"
-              name="surname"
-              placeholder="Surname"
-            />
-          </div>
-        </div>
-      </label>
-      <p class="buy-form-text">Email</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input"
-            type="text"
-            name="email"
-            placeholder="Enter your email"
+            name="surname"
+            placeholder="Surname"
           />
         </div>
-      </label>
-      <p class="buy-form-text">Phone number</p>
-      <div class="container-input-with-decoration">
-        <div class="fake-input">
-          <svg class="number-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-ukraine"></use>
-          </svg>
-          <p class="country-code">+380</p>
-        </div>
-        <label class="buy-form-label" autofocus>
-          <div class="input-container">
-            <input
-              class="buy-form-input number"
-              type="number"
-              name="number"
-              placeholder="Phone number"
-            />
-          </div>
-        </label>
-      </div>
-      <p class="buy-form-text">Card number</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input"
-            type="number"
-            name="card-number"
-            placeholder="Enter card"
-          />
-          <svg class="card-icon" width="32" height="21">
-            <use href="../img/icons.svg#icon-mastercard"></use>
-          </svg>
-        </div>
-      </label>
-      <p class="buy-form-text">Comment</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-comment"
-            type="text"
-            name="comment"
-            placeholder="Enter text"
-          />
-        </div>
-      </label>
-      <div class="buy-form-submit">
-        <button type="submit" class="buy-form-button-submit">
-          <span class="form-submit-span">Submit</span>
-        </button>
-
-
- 
-
       </div>
     </label>
     <p>Email</p>
