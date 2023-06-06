@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 311px;
   height: 100%;
-  background: #fafafa;
+  background: var(--background-main-color);
   border-radius: 15px;
   padding: 32px 24px;
   opacity: 0;
@@ -172,8 +172,9 @@
   gap: 40px;
   width: 100%;
   height: 45px;
-  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border: 1.5px solid var(--input-border-color);
   border-radius: 8px;
+  background-color: var(--background-main-color);
   /* line-height: 17px; */
 }
 
@@ -198,6 +199,13 @@
   transform: translateY(-50%);
 }
 
+@media only screen and (min-width: 768px) {
+  .input-container.mastercard .card-icon {
+    width: 44px;
+    height: 30px;
+  }
+}
+
 .buy-form-input.comment {
   gap: 40px;
   height: 91px;
@@ -205,6 +213,13 @@
   border-radius: 8px;
   resize: none;
 }
+
+@media only screen and (min-width: 768px) {
+  .buy-form-input.comment {
+    height: 137px;
+  }
+}
+
 .buy-form-button-submit {
   background: #fd9222;
   border-radius: 100px;
