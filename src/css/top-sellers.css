@@ -124,30 +124,45 @@
 }
 
 .top-sellers-button {
-  background: var(--accent-orange-color);
-  border-radius: 100px;
-  border: none;
-  width: 120px;
-  height: 41px;
-}
-.buy-now {
-  width: 64px;
-  height: 17px;
-  font-family: 'Montserrat';
+  /* font-family: var(--primary-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
-  color: var(--background-main-color);
-  /* transition: color var(--cubic-beizer); */
+  line-height: 1.21;
+
+  background-color: var(--accent-orange-color);
+  color: var(--white-full-color);
+
+  border: none;
+  border-radius: 100px;
+
+  padding: 10px 15px;
+  margin-right: 14px;
+
+  min-width: 95px;
+  height: 41px;
+
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier);
 }
-.top-sellers-button:hover,
-.top-sellers-button:focus {
-  background: var(--button-mobile-menu-close-bg-color);
+
+@media only screen and (min-width: 375px) {
+  .top-sellers-button {
+    padding: 12px 28px;
+    min-width: 120px;
+  }
 }
-.buy-now:hover,
-.buy-now:focus {
+
+@media only screen and (min-width: 768px) {
+  .top-sellers-button {
+    padding: 14px 40px;
+    min-width: 144px;
+    height: 45px;
+  }
+}
+
+.top-sellers-button:is(:hover, :focus) {
   color: var(--accent-orange-color);
+  background-color: var(--button-mobile-menu-close-bg-color);
 }
 
 @media screen and (max-width: 1199.9px) {
