@@ -21,6 +21,7 @@
   color: var(--black-color);
   text-align: center;
   margin-bottom: 49px;
+  font-weight: 600;
 }
 .chocolate-review {
   color: var(--accent-orange-color);
@@ -46,10 +47,8 @@
 }
 .subtitle-review {
   text-align: center;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin-bottom: 24px;
+  font-weight: 600;
 }
 .text-review {
   font-size: 14px;
