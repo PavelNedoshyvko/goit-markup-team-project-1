@@ -2,7 +2,7 @@
 <div class="modal buy-modal-container" data-modal="2">
   <button type="button" class="buy-window-modal-button js-modal-close">
     <svg class="buy-window-modal-icon" width="24" height="24">
-      <use href="../img/icons.svg#icon-x-close"></use>
+      <use href="./img/icons.svg#icon-x-close"></use>
     </svg>
   </button>
   <h2 class="buy-modal-window-title">
@@ -13,7 +13,7 @@
       <div class="modal-list-container">
         <img
           class="modal-window-image"
-          src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
+          src="./img/top-sellers/buy-now-image/first-modal-image.jpg"
           alt="chocolate"
           width="84px"
         />
@@ -26,7 +26,7 @@
       <div class="modal-list-container">
         <img
           class="modal-window-image"
-          src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
+          src="./img/top-sellers/buy-now-image/second-modal-image.jpg"
           alt="chocolate"
           width="84px"
         />
@@ -39,7 +39,7 @@
       <div class="modal-list-container">
         <img
           class="modal-window-image"
-          src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
+          src="./img/top-sellers/buy-now-image/third-modal-image.jpg"
           alt="chocolate"
           width="84px"
         />
@@ -50,9 +50,10 @@
     </li>
   </ul>
   <form class="buy-now-form">
-    <p>Personal information</p>
-    <label class="buy-form-label" autofocus>
-      <div class="input-container">
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Personal information</span>
+
+      <div class="input-container personal-info">
         <input
           class="buy-form-input"
           type="name"
@@ -69,8 +70,9 @@
         </div>
       </div>
     </label>
-    <p>Email</p>
-    <label class="buy-form-label" autofocus>
+
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Email</span>
       <div class="input-container">
         <input
           class="buy-form-input"
@@ -80,8 +82,10 @@
         />
       </div>
     </label>
-    <p>Phone number</p>
-    <label class="buy-form-label" autofocus>
+
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Phone number</span>
+
       <div class="input-container">
         <input
           class="buy-form-input number"
@@ -91,9 +95,11 @@
         />
       </div>
     </label>
-    <p>Card number</p>
-    <label class="buy-form-label" autofocus>
-      <div class="input-container">
+
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Card number</span>
+
+      <div class="input-container mastercard">
         <input
           class="buy-form-input"
           type="number"
@@ -101,25 +107,26 @@
           placeholder="Enter card"
         />
         <svg class="card-icon" width="32" height="21">
-          <use href="../img/icons.svg#icon-mastercard"></use>
+          <use href="./img/icons.svg#icon-mastercard"></use>
         </svg>
       </div>
     </label>
-    <p>Comment</p>
-    <label class="buy-form-label" autofocus>
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Comment</span>
+
       <div class="input-container">
-        <input
-          class="buy-form-comment"
-          type="text"
+        <textarea
+          class="buy-form-input comment"
           name="comment"
+          id=""
+          cols="30"
+          rows="10"
           placeholder="Enter text"
-        />
+        ></textarea>
       </div>
     </label>
     <div class="buy-form-submit">
-      <button type="submit" class="buy-form-button-submit">
-        <span class="form-submit-span">Submit</span>
-      </button>
+      <button type="submit" class="buy-form-button-submit">Submit</button>
     </div>
   </form>
 </div>
