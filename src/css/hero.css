@@ -1,11 +1,19 @@
+.section.hero-item {
+  padding-bottom: 72px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199.9px) {
+  .section.hero-item {
+    padding-bottom: 50px;
+  }
+}
+
 .hero-container {
   padding-top: 395px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-
   margin: 0 auto;
-  margin-bottom: 72px;
   background-color: var(--button-mobile-menu-close-bg-color);
   background-image: linear-gradient(
       180deg,
@@ -23,12 +31,6 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .hero-container {
-    margin-bottom: 50px;
   }
 }
 

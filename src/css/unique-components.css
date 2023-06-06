@@ -7,14 +7,13 @@
   .unique-components {
     padding-top: 100px;
     padding-bottom: 100px;
-     }
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .unique-components {
-    padding-top: 117px;
-    padding-bottom: 139px;
-    
+    padding-top: 128px;
+    padding-bottom: 128px;
   }
 }
 .components-tittle {
@@ -107,7 +106,6 @@
 @media only screen and (min-width: 1200px) {
   .components-item {
     width: 270px;
-    
   }
 }
 .components-item:nth-child(1) {
@@ -166,7 +164,7 @@
 .components-item:hover,
 .components-item:hover .components-overlay {
   border: 1px solid var(--white-full-color);
- 
+
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
@@ -214,7 +212,6 @@
 
 .components-btn {
   display: inline;
-
 }
 .components-overlay-btn {
   align-items: center;
@@ -227,7 +224,6 @@
   font-size: 10px;
   line-height: 12px;
 }
-
 
 .components-overlay-btn-light {
   background-color: var(--background-main-color);

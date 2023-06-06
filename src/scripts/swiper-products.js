@@ -12,11 +12,11 @@ const swiper = new Swiper('.swiper-products', {
           slidesPerView: 1,
           spaceBetween: 0
         },
-        767: {
+        768: {
           slidesPerView: 2,
           spaceBetween: 24
         },
-        1159: {
+        1200: {
           slidesPerView: 4,
           spaceBetween: 24
         },
