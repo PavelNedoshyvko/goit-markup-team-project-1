@@ -107,17 +107,20 @@
 
 .top-sellers-block {
   display: flex;
-  flex-wrap: wrap;
-  margin: 32px 0 164px 0;
+  justify-items: center;
+  width: 100%;
+  
+  
 }
 .top-sellers-button-container {
-  display: block;
+  display: flex;
   margin: auto;
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
   .top-sellers-button-container {
     margin: 0;
+    justify-content: space-between;
     margin-left: auto;
     padding-top: 32px;
   }
@@ -129,6 +132,7 @@
   border: none;
   width: 120px;
   height: 41px;
+  
 }
 .buy-now {
   width: 64px;
