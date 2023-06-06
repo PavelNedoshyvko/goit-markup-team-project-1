@@ -135,14 +135,11 @@
 .menu-toggle-close-btn:is(:hover, :focus) {
   stroke: var(--accent-orange-color);
   scale: 1.3;
-  /* width: 40px;
-  height: 40px; */
 }
 
 .menu-container {
   position: fixed;
   top: 0;
-  /* left: 0; */
   right: 0;
 
   display: flex;
