@@ -41,7 +41,7 @@
   height: 200px;
   background: var(--white-full-color);
   border: 1px solid var(--button-card-border-color);
-  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  box-shadow: 0px 9.04932px 26.5717px var(--card-box-shadow-color);
   border-radius: 15px;
 }
 .subtitle-review {
@@ -83,7 +83,7 @@
 .section-review .swiper-review-pagination .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background: var(--button-card-border-color);
   caret-color: transparent;
 }
 .section-review
@@ -92,7 +92,7 @@
   width: 28px;
   height: 13px;
   border-radius: 10px;
-  background: #fd9222;
+  background: var(--accent-orange-color);
 }
 .button-leave-review {
   margin: auto;
@@ -105,6 +105,11 @@
   border-radius: 100px;
   color: var(--black-color);
   background-color: var(--background-main-color);
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier);
+}
+.button-leave-review:hover, .button-leave-review:focus {
+ background-color: var(--accent-orange-color);
+  color: var(--white-full-color);
 }
 
 /* adaptive */
