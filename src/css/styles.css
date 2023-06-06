@@ -21,6 +21,7 @@
 @import url('./modal-buy-now.css');
 @import url('./modal-leave-review.css');
 @import url('./modal-explore-first.css');
+@import url('./overlay.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;

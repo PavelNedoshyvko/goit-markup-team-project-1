@@ -1,4 +1,5 @@
 <!-- Buy window -->
+
 <div class="buy-modal-container is-hidden">
   <div class="buy-modal-window">
     <div class="close-modal-button">
@@ -137,7 +138,63 @@
         <button type="submit" class="buy-form-button-submit">
           <span class="form-submit-span">Submit</span>
         </button>
+
+
+ 
+
       </div>
-    </form>
-  </div>
+    </label>
+    <p>Email</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+        />
+      </div>
+    </label>
+    <p>Phone number</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input number"
+          type="number"
+          name="number"
+          placeholder="Phone number"
+        />
+      </div>
+    </label>
+    <p>Card number</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="number"
+          name="card-number"
+          placeholder="Enter card"
+        />
+        <svg class="card-icon" width="32" height="21">
+          <use href="../img/icons.svg#icon-mastercard"></use>
+        </svg>
+      </div>
+    </label>
+    <p>Comment</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-comment"
+          type="text"
+          name="comment"
+          placeholder="Enter text"
+        />
+      </div>
+    </label>
+    <div class="buy-form-submit">
+      <button type="submit" class="buy-form-button-submit">
+        <span class="form-submit-span">Submit</span>
+      </button>
+    </div>
+  </form>
 </div>

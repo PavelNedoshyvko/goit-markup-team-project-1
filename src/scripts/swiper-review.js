@@ -16,11 +16,11 @@ const swiper = new Swiper('.swiper-review', {
           slidesPerView: 1,
           spaceBetween: 0
         },
-        767: {
+        768: {
           slidesPerView: 2,
           spaceBetween: 24
         },
-        1159: {
+        1200: {
           slidesPerView: 3,
           spaceBetween: 24
         },
