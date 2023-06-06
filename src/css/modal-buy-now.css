@@ -1,21 +1,21 @@
-/* Modal window  */
 .buy-modal-container {
-  position: absolute;
-
-  width: 311px;
-  height: 994px;
-  background: #fafafa;
-  border-radius: 15px;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 311px;
+  height: 100%;
+  background: #fafafa;
+  border-radius: 15px;
   padding: 32px 24px;
-}
-.is-hidden {
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  overflow-y: scroll;
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity var(--cubic-bezier), visibility var(--cubic-bezier);
+  z-index: 2;
 }
+
 .buy-modal-window-title {
   font-family: 'Montserrat';
   font-style: normal;
@@ -94,8 +94,8 @@
   color: #ffffff;
 }
 .buy-form-button-submit:hover {
-    background: #fcf1e0;
-} 
+  background: #fcf1e0;
+}
 .form-submit-span:hover {
-    color: #fd9222;
+  color: #fd9222;
 }
