@@ -1,11 +1,13 @@
 <!-- Buy window -->
 <div class="buy-modal-container is-hidden">
   <div class="buy-modal-window">
-    <button type="button" class="buy-window-modal-button">
-      <svg class="buy-window-modal-icon" width="24" height="24">
-        <use href="../img/icons.svg#icon-x-close"></use>
-      </svg>
-    </button>
+    <div class="close-modal-button">
+      <button type="button" class="buy-window-modal-button">
+        <svg class="buy-window-modal-icon" width="24" height="24">
+          <use href="../img/icons.svg#icon-x-close"></use>
+        </svg>
+      </button>
+    </div>
     <h2 class="buy-modal-window-title">
       BUY <span class="buy-modal-window-span">NOW</span>
     </h2>
@@ -15,6 +17,8 @@
           <img
             class="modal-window-image"
             src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
+            srcset="../img/top-sellers/buy-now-image/first-tab-img.jpg 120w"
+            sizes="(min-width: 768px) 120px"
             alt="chocolate"
             width="84px"
           />
@@ -28,6 +32,8 @@
           <img
             class="modal-window-image"
             src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
+            srcset="../img/top-sellers/buy-now-image/second-tab-img.jpg 120w"
+            sizes="(min-width: 768px) 120px"
             alt="chocolate"
             width="84px"
           />
@@ -41,6 +47,8 @@
           <img
             class="modal-window-image"
             src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
+            srcset="../img/top-sellers/buy-now-image/third-tab-img.jpg 120w"
+            sizes="(min-width: 768px) 120px"
             alt="chocolate"
             width="84px"
           />
@@ -51,7 +59,7 @@
       </li>
     </ul>
     <form class="buy-now-form">
-      <p>Personal information</p>
+      <p class="buy-form-text">Personal information</p>
       <label class="buy-form-label" autofocus>
         <div class="input-container">
           <input
@@ -70,7 +78,7 @@
           </div>
         </div>
       </label>
-      <p>Email</p>
+      <p class="buy-form-text">Email</p>
       <label class="buy-form-label" autofocus>
         <div class="input-container">
           <input
@@ -81,18 +89,26 @@
           />
         </div>
       </label>
-      <p>Phone number</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input number"
-            type="number"
-            name="number"
-            placeholder="Phone number"
-          />
+      <p class="buy-form-text">Phone number</p>
+      <div class="container-input-with-decoration">
+        <div class="fake-input">
+          <svg class="number-icon" width="24" height="24">
+            <use href="../img/icons.svg#icon-ukraine"></use>
+          </svg>
+          <p class="country-code">+380</p>
         </div>
-      </label>
-      <p>Card number</p>
+        <label class="buy-form-label" autofocus>
+          <div class="input-container">
+            <input
+              class="buy-form-input number"
+              type="number"
+              name="number"
+              placeholder="Phone number"
+            />
+          </div>
+        </label>
+      </div>
+      <p class="buy-form-text">Card number</p>
       <label class="buy-form-label" autofocus>
         <div class="input-container">
           <input
@@ -106,7 +122,7 @@
           </svg>
         </div>
       </label>
-      <p>Comment</p>
+      <p class="buy-form-text">Comment</p>
       <label class="buy-form-label" autofocus>
         <div class="input-container">
           <input
