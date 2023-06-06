@@ -1,3 +1,4 @@
-import './scripts/modal'
-import './scripts/swiper-1'
 import './scripts/mobile-menu'
+// import './scripts/modal'
+import './scripts/swiper-products'
+import './scripts/swiper-review'
