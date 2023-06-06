@@ -17,8 +17,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/goit-markup-team-project-1/assets/index-5c209c84.js"></script>
-    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-e12add01.css">
+    <script type="module" crossorigin src="/goit-markup-team-project-1/assets/index-06cb7a3c.js"></script>
+    <link rel="stylesheet" href="/goit-markup-team-project-1/assets/index-c4ef1cd9.css">
   </head>
   <body>
     <header class="top-header">
@@ -151,7 +151,9 @@
         pure delight!
       </h2>
       <div class="control-btn">
-        <button type="submit" class="buy-btn">Buy now</button>
+        <button type="submit" class="buy-btn js-open-modal" data-modal="2">
+          Buy now
+        </button>
         <a class="how-its-made-lnk" href="#made">How it’s made</a>
         <a class="scr-btn" href="#footer" aria-label="link on the footer">
           scroll down
@@ -590,7 +592,6 @@
     <ul class="top-sellers-list">
       <li class="top-sellers-item">
         <picture>
-                 
           <source
             media="(min-width:1158px )"
             srcset="/goit-markup-team-project-1/assets/1-dex-@1x-f3945efd.webp 1x, /goit-markup-team-project-1/assets/1-dex-@2x-10393fe9.webp 2x"
@@ -601,7 +602,7 @@
             srcset="/goit-markup-team-project-1/assets/1-dex-@1x-8e46e74a.jpg 1x, /goit-markup-team-project-1/assets/1-dex-@2x-ae92289f.jpg 2x"
             type="image/jpg"
           />
-          
+
           <source
             media="(min-width:768px )"
             srcset="/goit-markup-team-project-1/assets/1-tab-@1x-db6af68f.webp 1x, /goit-markup-team-project-1/assets/1-tab-@2x-28fdd2df.webp 2x"
@@ -612,7 +613,7 @@
             srcset="/goit-markup-team-project-1/assets/1-tab-@1x-14d5b8a0.jpg 1x, /goit-markup-team-project-1/assets/1-tab-@2x-fd999074.jpg 2x"
             type="image/jpg"
           />
-       
+
           <source
             media="(max-width:767.9px )"
             srcset="/goit-markup-team-project-1/assets/1-mob-@1x-ac6a043e.webp 1x, /goit-markup-team-project-1/assets/1-mob-@2x-be90b704.webp 2x"
@@ -634,7 +635,6 @@
       </li>
       <li class="top-sellers-item">
         <picture>
-                 
           <source
             media="(min-width:1158px )"
             srcset="/goit-markup-team-project-1/assets/2-dex-@1x-e98fae40.webp 1x, /goit-markup-team-project-1/assets/2-dex-@2x-ade1a00f.webp 2x"
@@ -645,7 +645,7 @@
             srcset="/goit-markup-team-project-1/assets/2-dex-@1x-7005fa40.jpg 1x, /goit-markup-team-project-1/assets/2-dex-@2x-eb331e46.jpg 2x"
             type="image/jpg"
           />
-          
+
           <source
             media="(min-width:768px )"
             srcset="/goit-markup-team-project-1/assets/2-tab-@1x-e41213b9.webp 1x, /goit-markup-team-project-1/assets/2-tab-@2x-7859f39b.webp 2x"
@@ -656,7 +656,7 @@
             srcset="/goit-markup-team-project-1/assets/2-tab-@1x-1b5b962e.jpg 1x, /goit-markup-team-project-1/assets/2-tab-@2x-ca90301b.jpg 2x"
             type="image/jpg"
           />
-       
+
           <source
             media="(max-width:767.9px )"
             srcset="/goit-markup-team-project-1/assets/2-mob-@1x-c9ca7cc7.webp 1x, /goit-markup-team-project-1/assets/2-mob-@2x-01fd2c46.webp 2x"
@@ -678,7 +678,6 @@
       </li>
       <li class="top-sellers-item">
         <picture class="top-sellers-none">
-                 
           <source
             media="(min-width:1200px )"
             srcset="/goit-markup-team-project-1/assets/3-dex-@1x-1-19fd8a8b.webp 1x, /goit-markup-team-project-1/assets/3-dex-@2x-1-61f2fbc4.webp 2x"
@@ -689,7 +688,6 @@
             srcset="/goit-markup-team-project-1/assets/3-dex-@1x-1-d07e5b5e.jpg 1x, /goit-markup-team-project-1/assets/3-dex-@2x-1-26f8a292.jpg 2x"
             type="image/jpg"
           />
-          
 
           <img
             class="top-sellers-img"
@@ -708,7 +706,11 @@
         discovered by the Native American tribe called the Mayans.
       </p>
       <div class="top-sellers-button-container">
-        <button type="button" class="top-sellers-button">
+        <button
+          class="top-sellers-button js-open-modal"
+          type="button"
+          data-modal="2"
+        >
           <span class="buy-now"> Buy now </span>
         </button>
       </div>
@@ -843,7 +845,7 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button class="subscribe-btn" type="button" data-modal-open-3>
+    <button class="subscribe-btn js-open-modal" type="button" data-modal="1">
       Subscribe
     </button>
   </div>
@@ -939,164 +941,162 @@
     <!-- <img src="./img/favicon.svg" alt="" /> -->
 
     <!-- Buy window -->
-<div class="buy-modal-container is-hidden">
-  <div class="buy-modal-window">
-    <button type="button" class="buy-window-modal-button">
-      <svg class="buy-window-modal-icon" width="24" height="24">
-        <use href="../img/icons.svg#icon-x-close"></use>
-      </svg>
-    </button>
-    <h2 class="buy-modal-window-title">
-      BUY <span class="buy-modal-window-span">NOW</span>
-    </h2>
-    <ul class="buy-now-list">
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">100 g</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">200 g</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <div class="modal-list-container">
-          <img
-            class="modal-window-image"
-            src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
-            alt="chocolate"
-            width="84px"
-          />
-          <button type="button" class="grams-button">
-            <span class="grams-button-span">300 g</span>
-          </button>
-        </div>
-      </li>
-    </ul>
-    <form class="buy-now-form">
-      <p>Personal information</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
+<div class="modal buy-modal-container" data-modal="2">
+  <button type="button" class="buy-window-modal-button js-modal-close">
+    <svg class="buy-window-modal-icon" width="24" height="24">
+      <use href="../img/icons.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <h2 class="buy-modal-window-title">
+    BUY <span class="buy-modal-window-span">NOW</span>
+  </h2>
+  <ul class="buy-now-list">
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/first-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">100 g</span>
+        </button>
+      </div>
+    </li>
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/second-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">200 g</span>
+        </button>
+      </div>
+    </li>
+    <li>
+      <div class="modal-list-container">
+        <img
+          class="modal-window-image"
+          src="../img/top-sellers/buy-now-image/third-modal-image.jpg"
+          alt="chocolate"
+          width="84px"
+        />
+        <button type="button" class="grams-button">
+          <span class="grams-button-span">300 g</span>
+        </button>
+      </div>
+    </li>
+  </ul>
+  <form class="buy-now-form">
+    <p>Personal information</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="name"
+          name="name"
+          placeholder="Name"
+        />
+        <div class="surname-container">
           <input
             class="buy-form-input"
             type="name"
-            name="name"
-            placeholder="Name"
-          />
-          <div class="surname-container">
-            <input
-              class="buy-form-input"
-              type="name"
-              name="surname"
-              placeholder="Surname"
-            />
-          </div>
-        </div>
-      </label>
-      <p>Email</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input"
-            type="text"
-            name="email"
-            placeholder="Enter your email"
+            name="surname"
+            placeholder="Surname"
           />
         </div>
-      </label>
-      <p>Phone number</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input number"
-            type="number"
-            name="number"
-            placeholder="Phone number"
-          />
-        </div>
-      </label>
-      <p>Card number</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-input"
-            type="number"
-            name="card-number"
-            placeholder="Enter card"
-          />
-          <svg class="card-icon" width="32" height="21">
-            <use href="../img/icons.svg#icon-mastercard"></use>
-          </svg>
-        </div>
-      </label>
-      <p>Comment</p>
-      <label class="buy-form-label" autofocus>
-        <div class="input-container">
-          <input
-            class="buy-form-comment"
-            type="text"
-            name="comment"
-            placeholder="Enter text"
-          />
-        </div>
-      </label>
-      <div class="buy-form-submit">
-        <button type="submit" class="buy-form-button-submit">
-          <span class="form-submit-span">Submit</span>
-        </button>
       </div>
-    </form>
-  </div>
+    </label>
+    <p>Email</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+        />
+      </div>
+    </label>
+    <p>Phone number</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input number"
+          type="number"
+          name="number"
+          placeholder="Phone number"
+        />
+      </div>
+    </label>
+    <p>Card number</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-input"
+          type="number"
+          name="card-number"
+          placeholder="Enter card"
+        />
+        <svg class="card-icon" width="32" height="21">
+          <use href="../img/icons.svg#icon-mastercard"></use>
+        </svg>
+      </div>
+    </label>
+    <p>Comment</p>
+    <label class="buy-form-label" autofocus>
+      <div class="input-container">
+        <input
+          class="buy-form-comment"
+          type="text"
+          name="comment"
+          placeholder="Enter text"
+        />
+      </div>
+    </label>
+    <div class="buy-form-submit">
+      <button type="submit" class="buy-form-button-submit">
+        <span class="form-submit-span">Submit</span>
+      </button>
+    </div>
+  </form>
 </div>
 
     
-    <div class="backdrop is-hidden" data-modal-3>
-  <div class="modal subscribe-modal">
-    <div class="subscribe-modal-picture">
-      <button class="subscribe-btn-close" data-modal-close-3>
-        <svg class="subscribe-btn-close-icon">
-          <use href="/goit-markup-team-project-1/assets/icons-1b9c62e6.svg#icon-x-close"></use>
-        </svg>
-      </button>
-    </div>
-    <div class="subscribe-form">
-      <h2 class="subscribe-form-title">
-        Explore our <br />
-        <span class="subscribe-orange-txt">new chocolate</span> first!
-      </h2>
+    <div class="modal subscribe-modal" data-modal="1">
+  <div class="subscribe-modal-picture">
+    <button class="subscribe-btn-close js-modal-close">
+      <svg class="subscribe-btn-close-icon">
+        <use href="/goit-markup-team-project-1/assets/icons-1b9c62e6.svg#icon-x-close"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="subscribe-form">
+    <h2 class="subscribe-form-title">
+      Explore our <br />
+      <span class="subscribe-orange-txt">new chocolate</span> first!
+    </h2>
 
-      <div class="email-window">
-        <label>
-          <input
-            class="subscribe-email"
-            type="email"
-            name="subscribe-email"
-            placeholder="Enter your email"
-          />
-        </label>
-        <button class="subscribe-submit-btn" type="submit">Submit</button>
-      </div>
+    <div class="email-window">
+      <label>
+        <input
+          class="subscribe-email"
+          type="email"
+          name="subscribe-email"
+          placeholder="Enter your email"
+        />
+      </label>
+      <button class="subscribe-submit-btn" type="submit">Submit</button>
     </div>
   </div>
 </div>
 
+
+    <div class="overlay js-overlay-modal"></div>
 
     <script
       defer
