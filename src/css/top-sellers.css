@@ -1,8 +1,7 @@
 .top-sellers {
 }
 .top-sellers-section {
-  max-width: 100%;
-  margin: 0 20px;
+
 }
 
 .top-sellers-title {
@@ -25,11 +24,7 @@
   text-align: center;
   gap: 16px;
 }
-.top-sellers-image {
-  border-radius: 15px;
-  margin-bottom: 20px;
-  margin-top: 32px;
-}
+
 
 .top-sellers-text {
   font-family: 'Montserrat';
@@ -40,26 +35,22 @@
   letter-spacing: -0.02em;
   color: #111111;
   width: 306px;
-  padding-left: 32px;
-  
+}
+@media screen and (min-width: 1200px) {
+  .top-sellers-text {
+    min-width: 406px;
+  }
 }
 .top-sellers-block {
   display: flex;
-  align-items: center;
+  
   margin: 32px 0 164px 0;
  
 }
 .top-sellers-button-container {
 display: block;
-
 margin-left: auto;
-padding-right: 32px;
-}
 
-@media screen and (min-width: 1200px) {
-  .top-sellers-text {
-    min-width: 406px;
-  }
 }
 
 .top-sellers-button {
