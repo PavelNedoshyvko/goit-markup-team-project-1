@@ -1,12 +1,12 @@
 // import Swiper JS
-import Swiper, { Pagination } from 'swiper';
+// import Swiper, { Pagination } from 'swiper';
 // import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// Swiper.use([Pagination]);
+import Swiper from 'swiper/bundle';
 
-Swiper.use([Pagination]);
-
-const swiper = new Swiper('.section-review .swiper', {
+const swiper = new Swiper('.swiper-review', {
     // Optional parameters
     slidesPerView: 3,
     spaceBetween: 24,
@@ -28,7 +28,7 @@ const swiper = new Swiper('.section-review .swiper', {
   
     // If we need pagination
     pagination: {
-        el: ".section-review .swiper-pagination",
+        el: ".swiper-review-pagination",
         clickable: true,
     },
 });
