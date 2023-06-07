@@ -50,43 +50,44 @@
     </li>
   </ul>
   <form class="buy-now-form">
-    <label class="buy-form-label">
-      <span class="buy-form-label-span">Personal information</span>
+    <label class="buy-form-label" for="name">
+      <span class="buy-form-label-span">Personal information</span></label
+    >
 
-      <div class="input-container personal-info">
-        <input
-          class="buy-form-input"
-          type="name"
-          name="name"
-          placeholder="Name"
-        />
-        <div class="surname-container">
-          <input
-            class="buy-form-input"
-            type="name"
-            name="surname"
-            placeholder="Surname"
-          />
-        </div>
-      </div>
-    </label>
-
-    <label class="buy-form-label">
-      <span class="buy-form-label-span">Email</span>
-      <div class="input-container">
+    <span class="input-container personal-info">
+      <input
+        class="buy-form-input"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+      />
+      <div class="surname-container">
         <input
           class="buy-form-input"
           type="text"
+          name="surname"
+          placeholder="Surname"
+        />
+      </div>
+    </span>
+
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Email</span>
+      <span class="input-container">
+        <input
+          class="buy-form-input"
+          type="email"
           name="email"
           placeholder="Enter your email"
         />
-      </div>
+      </span>
     </label>
 
     <label class="buy-form-label">
       <span class="buy-form-label-span">Phone number</span>
 
-      <div class="input-container tel">
+      <span class="input-container tel">
         <input
           class="buy-form-input number"
           type="tel"
@@ -100,13 +101,13 @@
         </svg>
         <p class="tel-code">+380</p>
         <span class="tel-code-line"></span>
-      </div>
+      </span>
     </label>
 
     <label class="buy-form-label">
       <span class="buy-form-label-span">Card number</span>
 
-      <div class="input-container mastercard">
+      <span class="input-container mastercard">
         <input
           class="buy-form-input"
           type="number"
@@ -116,12 +117,12 @@
         <svg class="card-icon" width="32" height="21">
           <use href="./img/icons.svg#icon-mastercard"></use>
         </svg>
-      </div>
+      </span>
     </label>
     <label class="buy-form-label">
       <span class="buy-form-label-span">Comment</span>
 
-      <div class="input-container">
+      <span class="input-container">
         <textarea
           class="buy-form-input comment"
           name="comment"
@@ -130,7 +131,7 @@
           rows="10"
           placeholder="Enter text"
         ></textarea>
-      </div>
+      </span>
     </label>
     <div class="buy-form-submit">
       <button type="submit" class="buy-form-button-submit">Submit</button>
