@@ -166,11 +166,11 @@
   </div>
   <button class="scr-btn up scroll-up-btn" type="button">
     scroll up
-    <div class="bck-color-icon">
+    <span class="bck-color-icon">
       <svg class="scr-btn-icon up">
         <use href="/goit-markup-team-project-1/assets/icons-1b9c62e6.svg#icon-scroll-down"></use>
       </svg>
-    </div>
+    </span>
   </button>
 </section>
 
@@ -519,8 +519,8 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-1@1x-f572161c.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">OPRANGE</h3>
@@ -542,8 +542,8 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-2@1x-c234b632.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">APPLE&CRANBERRY</h3>
@@ -565,13 +565,13 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-3@1x-8f70d6ac.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">lIME&SEA SALT</h3>
         <p class="our-text">Dark chocolate</p>
-        <button class="our-btn" class="our-btn" type="button">45 UAH</button>
+        <button class="our-btn" type="button">45 UAH</button>
       </div>
       <div class="swiper-slide our-item">
         <picture class="our-products-img">
@@ -611,8 +611,8 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-5@1x-5071b6db.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">CLASSIC</h3>
@@ -634,8 +634,8 @@
             class="blok-photo-img"
             src="../img/our-products/our-6@1x.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">HONEY</h3>
@@ -657,8 +657,8 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-7@1x-5ddf43df.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">ROASTED FRUITS</h3>
@@ -680,8 +680,8 @@
             class="blok-photo-img"
             src="/goit-markup-team-project-1/assets/our-8@1x-fc845d03.jpg"
             alt=""
-            min-width="230"
-            min-height="201"
+            width="230"
+            height="201"
           />
         </picture>
         <h3 class="our-title-3">CLASSIC</h3>
@@ -1103,43 +1103,44 @@
     </li>
   </ul>
   <form class="buy-now-form">
-    <label class="buy-form-label">
-      <span class="buy-form-label-span">Personal information</span>
+    <label class="buy-form-label" for="name">
+      <span class="buy-form-label-span">Personal information</span></label
+    >
 
-      <div class="input-container personal-info">
-        <input
-          class="buy-form-input"
-          type="name"
-          name="name"
-          placeholder="Name"
-        />
-        <div class="surname-container">
-          <input
-            class="buy-form-input"
-            type="name"
-            name="surname"
-            placeholder="Surname"
-          />
-        </div>
-      </div>
-    </label>
-
-    <label class="buy-form-label">
-      <span class="buy-form-label-span">Email</span>
-      <div class="input-container">
+    <span class="input-container personal-info">
+      <input
+        class="buy-form-input"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+      />
+      <div class="surname-container">
         <input
           class="buy-form-input"
           type="text"
+          name="surname"
+          placeholder="Surname"
+        />
+      </div>
+    </span>
+
+    <label class="buy-form-label">
+      <span class="buy-form-label-span">Email</span>
+      <span class="input-container">
+        <input
+          class="buy-form-input"
+          type="email"
           name="email"
           placeholder="Enter your email"
         />
-      </div>
+      </span>
     </label>
 
     <label class="buy-form-label">
       <span class="buy-form-label-span">Phone number</span>
 
-      <div class="input-container tel">
+      <span class="input-container tel">
         <input
           class="buy-form-input number"
           type="tel"
@@ -1153,13 +1154,13 @@
         </svg>
         <p class="tel-code">+380</p>
         <span class="tel-code-line"></span>
-      </div>
+      </span>
     </label>
 
     <label class="buy-form-label">
       <span class="buy-form-label-span">Card number</span>
 
-      <div class="input-container mastercard">
+      <span class="input-container mastercard">
         <input
           class="buy-form-input"
           type="number"
@@ -1169,12 +1170,12 @@
         <svg class="card-icon" width="32" height="21">
           <use href="/goit-markup-team-project-1/assets/icons-1b9c62e6.svg#icon-mastercard"></use>
         </svg>
-      </div>
+      </span>
     </label>
     <label class="buy-form-label">
       <span class="buy-form-label-span">Comment</span>
 
-      <div class="input-container">
+      <span class="input-container">
         <textarea
           class="buy-form-input comment"
           name="comment"
@@ -1183,7 +1184,7 @@
           rows="10"
           placeholder="Enter text"
         ></textarea>
-      </div>
+      </span>
     </label>
     <div class="buy-form-submit">
       <button type="submit" class="buy-form-button-submit">Submit</button>
@@ -1205,27 +1206,27 @@
   </h2>
   <form class="buy-now-form">
     <label class="buy-form-label">
-      <div class="input-container">
-        <input
-          class="buy-form-input input-review-modal"
-          type="name"
-          name="name"
-          placeholder="Name"
-        />
-      </div>
-    </label>
-    <label class="buy-form-label">
-      <div class="input-container">
+      <span class="input-container">
         <input
           class="buy-form-input input-review-modal"
           type="text"
+          name="name"
+          placeholder="Name"
+        />
+      </span>
+    </label>
+    <label class="buy-form-label">
+      <span class="input-container">
+        <input
+          class="buy-form-input input-review-modal"
+          type="email"
           name="email"
           placeholder="Enter your email"
         />
-      </div>
+      </span>
     </label>
     <label class="buy-form-label">
-      <div class="input-container tel-review">
+      <span class="input-container tel-review">
         <input
           class="buy-form-input number input-review-modal"
           type="tel"
@@ -1237,19 +1238,18 @@
         </svg>
         <p class="tel-code">+380</p>
         <span class="tel-code-line"></span>
-      </div>
+      </span>
     </label>
     <label class="buy-form-label">
-      <div class="input-container">
+      <span class="input-container">
         <textarea
           class="buy-form-comment text-input-review-modal"
           name="comment"
-          id=""
           cols="30"
           rows="10"
           placeholder="Enter text"
         ></textarea>
-      </div>
+      </span>
     </label>
     <div class="buy-form-submit">
       <button type="submit" class="buy-form-button-submit">
