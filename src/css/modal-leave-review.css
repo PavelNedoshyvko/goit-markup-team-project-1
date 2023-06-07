@@ -61,6 +61,7 @@
   letter-spacing: -0.02em;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 8px;
+  outline: none;
   resize: none;
   background-color: transparent;
   transition: border-color var(--cubic-bezier);
@@ -128,4 +129,8 @@
 .review-modal-container .review-window-modal-button:focus {
   stroke: var(--accent-orange-color);
   scale: 1.3;
+}
+
+.input-container.tel-review {
+  position: relative;
 }
