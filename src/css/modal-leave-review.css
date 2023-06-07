@@ -26,54 +26,106 @@
 
 .review-modal-container .input-review-modal {
   width: 100%;
-  height: 66px;
-  color: var(--text-placeholder-color);
-  font-size: 18px;
+  height: 45px;
+  color: var(--text-modal-color);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
   background-color: transparent;
+  transition: border-color var(--cubic-bezier);
 }
+
+@media only screen and (min-width: 768px) {
+  .review-modal-container .input-review-modal {
+    height: 66px;
+    font-size: 18px;
+  }
+}
+
+.review-modal-container .input-review-modal:hover {
+  border-color: var(--accent-orange-color);
+}
+
+.review-modal-container .input-review-modal::placeholder {
+  color: var(--text-placeholder-color);
+}
+
 .review-modal-container .text-input-review-modal {
-  width: 437px;
-  height: 137px;
-  color: var(--text-placeholder-color);
-  font-size: 18px;
+  width: 100%;
+  height: 91px;
+  padding-top: 14px;
+  padding-left: 18px;
+  color: var(--text-modal-color);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  resize: none;
   background-color: transparent;
+  transition: border-color var(--cubic-bezier);
 }
+
+@media only screen and (min-width: 768px) {
+  .review-modal-container .text-input-review-modal {
+    height: 137px;
+    font-size: 18px;
+  }
+}
+
+.review-modal-container .text-input-review-modal:hover {
+  border-color: var(--accent-orange-color);
+}
+
+.review-modal-container .text-input-review-modal::placeholder {
+  color: var(--text-placeholder-color);
+}
+
 .review-modal-container .title-review-modal-orange {
   color: var(--accent-orange-color);
-  display: block;
 }
 .review-modal-container .title-review-modal-black {
   color: var(--black-color);
+  width: 255px;
   text-align: left;
-  font-size: 24px;
-  line-height: 1.1;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: -0.03em;
 }
 
-.review-modal-container .icon-review-modal {
-  color: var(--black-color);
+@media only screen and (min-width: 768px) {
+  .review-modal-container .title-review-modal-black {
+    width: 298px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }
 
 .review-modal-container .review-window-modal-button {
   position: absolute;
-  top: 15px;
+  top: 14px;
   right: 14px;
-  border: none;
-  background-color: transparent;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-}
-
-.review-modal-container .review-btn-close-icon {
-  stroke: var(--black-color);
-  width: 24px;
-  height: 24px;
   display: flex;
-  padding: 0;
   justify-content: center;
   align-items: center;
+  padding: 0;
   border: none;
+  stroke: var(--black-color);
   background-color: transparent;
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .review-modal-container .review-window-modal-button {
+    top: 24px;
+    right: 24px;
+  }
+}
+
+.review-modal-container .review-window-modal-button:hover,
+.review-modal-container .review-window-modal-button:focus {
+  stroke: var(--accent-orange-color);
+  scale: 1.3;
 }
