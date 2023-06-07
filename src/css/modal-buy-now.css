@@ -180,6 +180,7 @@
   width: 100%;
   height: 45px;
   border: 1.5px solid var(--input-border-color);
+  outline: none;
   border-radius: 8px;
   background-color: var(--background-main-color);
   transition: border-color var(--cubic-bezier);
@@ -189,7 +190,8 @@
   color: var(--text-placeholder-color);
 }
 
-.buy-form-input:hover {
+.buy-form-input:hover,
+.buy-form-input:focus {
   border-color: var(--accent-orange-color);
 }
 
@@ -226,11 +228,13 @@
   height: 91px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 8px;
+  outline: none;
   resize: none;
   transition: border-color var(--cubic-bezier);
 }
 
-.buy-form-input.comment:hover {
+.buy-form-input.comment:hover,
+.buy-form-input.comment:focus {
   border-color: var(--accent-orange-color);
 }
 
@@ -257,4 +261,59 @@
 .buy-form-button-submit:is(:hover, :focus) {
   color: var(--accent-orange-color);
   background-color: var(--button-mobile-menu-close-bg-color);
+}
+
+.input-container.tel {
+  position: relative;
+}
+
+.buy-form-input.number {
+  padding-left: 110px;
+}
+
+.tel-icon {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  margin-right: 8px;
+  transform: translateY(-50%);
+}
+
+.tel-code {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  font-weight: 500;
+}
+
+.tel-code-line {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 75px;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 24px;
+  margin-left: 20px;
+  background-color: var(--input-border-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .tel-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .tel-code {
+    left: 60px;
+  }
+
+  .tel-code-line {
+    left: 90px;
+  }
+
+  .buy-form-input.number {
+    padding-left: 130px;
+  }
 }
