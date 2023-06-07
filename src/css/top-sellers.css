@@ -54,7 +54,7 @@
   }
 }
 .title-span {
-  color: black;
+  color: var(--black-color);
 }
 .top-sellers-list {
   display: flex;

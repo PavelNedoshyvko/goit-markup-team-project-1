@@ -43,8 +43,8 @@
   width: 270px;
   height: 364px;
 
-  background: #ffffff;
-  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: var(--white-full-color);
+  border: 1px solid var(--button-card-border-color);
   border-radius: 15px;
 }
 
@@ -61,7 +61,7 @@
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #111111;
+  color: var(--black-color);
 
   padding-bottom: 2px;
 }
@@ -72,13 +72,13 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
-  color: rgba(17, 17, 17, 0.7);
+  color: var(--text-cards-color);
 
   padding-bottom: 18px;
 }
 .our-btn {
-  background: #fafafa;
-  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: var(--background-main-color);
+  border: 1px solid var(--button-card-border-color);
   border-radius: 100px;
 
   width: 94px;
@@ -89,7 +89,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-  color: #111111;
+  color: var(--black-color);
   margin-bottom: 32px;
 }
 .our-products .swiper-products {
@@ -115,7 +115,7 @@
 .our-products .swiper-products-pagination .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background: var(--button-card-border-color);
   /* caret-color: transparent; */
 }
 

@@ -83,7 +83,7 @@
 .subscribe-email {
   width: 263px;
   padding: 14px 18px;
-  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border: 1.5px solid var(--input-border-color);
   border-radius: 25px;
   outline: none;
   font-weight: 400;
@@ -129,7 +129,7 @@
 
 .subscribe-submit-btn:hover,
 .subscribe-submit-btn:focus {
-  background-color: #fcf1e0;
+  background-color: var( --button-mobile-menu-close-bg-color);
   color: var(--accent-orange-color);
 }
 
