@@ -62,7 +62,7 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #fd9222;
+  color: var(--accent-orange-color);
   margin-bottom: 32px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .buy-modal-window-span {
-  color: black;
+  color: var(--black-color);
 }
 
 .modal-list-container {
@@ -84,8 +84,8 @@
   /* margin-bottom: 8px; */
   height: 85px;
   padding: 8px 16px;
-  background: #ffffff;
-  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: var(--white-full-color);
+  border: 1px solid var(--button-card-border-color);
   border-radius: 15px;
 }
 
@@ -123,8 +123,8 @@
   margin-left: auto;
   width: 70px;
   height: 29px;
-  background: #fafafa;
-  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: var(--background-main-color);
+  border: 1px solid var( --button-card-border-color);
   border-radius: 100px;
   font-weight: 600;
   font-size: 14px;
@@ -226,7 +226,7 @@
 .buy-form-input.comment {
   gap: 40px;
   height: 91px;
-  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border: 1.5px solid var( --input-border-color);
   border-radius: 8px;
   outline: none;
   resize: none;
@@ -245,7 +245,7 @@
 }
 
 .buy-form-button-submit {
-  background: #fd9222;
+  background: var(--accent-orange-color);
   border-radius: 100px;
   border: none;
   width: 109px;

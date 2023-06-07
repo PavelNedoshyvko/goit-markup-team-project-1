@@ -52,7 +52,7 @@
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #fcf1e0;
+  background-color: var(--button-mobile-menu-close-bg-color);
   color: var(--contrast-color);
 }
 

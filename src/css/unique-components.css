@@ -21,7 +21,7 @@
   margin: 0 auto 24px;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: -0.03em;
@@ -36,7 +36,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .components-tittle {
-    line-height: 28px;
+    line-height: 1.4;
   }
 }
 .components-span {
@@ -46,7 +46,7 @@
 .components-motto {
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.29;
   margin: 0 auto;
   text-align: center;
   color: var(--black-color);
@@ -204,7 +204,7 @@
 .components-overlay-tittle {
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -222,7 +222,7 @@
   color: var(--white-full-color);
   font-weight: 400;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 1.2;
 }
 
 .components-overlay-btn-light {
@@ -236,7 +236,7 @@
   margin-top: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.29;
 }
 
 .components-card {
