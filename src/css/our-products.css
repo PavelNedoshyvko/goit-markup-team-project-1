@@ -127,3 +127,8 @@
   border-radius: 10px;
   background: var(--accent-orange-color);
 }
+
+.our-products-img {
+  display: flex;
+  justify-content: center;
+}
