@@ -16,6 +16,7 @@
 }
 
 .title-chocolate-review {
+  font-size: 24px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--black-color);
@@ -111,19 +112,16 @@
   color: var(--white-full-color);
 }
 
-/* adaptive */
+/* adaptive
 
 /* @media (max-width: 1158px) {
 }
 
 @media screen and (max-width: 767px) {
-}
+} */
 
 @media screen and (max-width: 480px) {
   .title-chocolate-review {
-    margin-bottom: 32px;
+    font-size: 20px;
   }
 }
-
-@media screen and (max-width: 420px) {
-} */
