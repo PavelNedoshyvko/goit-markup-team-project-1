@@ -1,4 +1,5 @@
 .section-how-its-made {
+  position: relative;
   padding-bottom: 72px;
 }
 
@@ -152,4 +153,8 @@
   .how-its-made-item:not(:last-child) {
     margin-bottom: 24px;
   }
+}
+
+.how-its-made-video {
+  background-color: var(--black-color);
 }
