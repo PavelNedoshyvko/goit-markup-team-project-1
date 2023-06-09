@@ -219,6 +219,10 @@
   margin-bottom: 16px;
 }
 
+.mobile-menu-items:last-child {
+  margin-bottom: 40px;
+}
+
 .active::after {
   content: '';
   position: absolute;
