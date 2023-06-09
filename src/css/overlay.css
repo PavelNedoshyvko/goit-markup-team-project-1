@@ -12,9 +12,18 @@
   z-index: 1;
 }
 
-.modal.active,
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
 .overlay.active {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
 }
+
+/* .overlay.active ~ .body {
+  overflow: hidden;
+} */

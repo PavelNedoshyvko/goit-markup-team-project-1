@@ -147,6 +147,7 @@
 
   width: 220px;
   height: 100%;
+  overflow-y: auto;
 
   background-color: var(--background-deep-violet-color);
   z-index: 999;
