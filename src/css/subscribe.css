@@ -3,7 +3,7 @@
   /* max-width: 375px; */
   width: 100%;
   background-image: url(../img/subscribe/Subcribe1x-375.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
