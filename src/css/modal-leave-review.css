@@ -6,18 +6,17 @@
   width: 95%;
   max-width: 311px;
   height: 95%;
-  max-height: 471px;
+  max-height: 485px;
   border-radius: 15px;
   padding: 32px 24px;
   opacity: 0;
   visibility: hidden;
   overflow-y: auto;
   background-color: var(--background-main-color);
-  transform: translate(-50%, -50%) scale(1);
   transition: opacity var(--cubic-bezier), visibility var(--cubic-bezier);
   z-index: 2;
-  overflow: hidden;
 }
+
 @media only screen and (min-width: 768px) {
   .review-modal-container {
     max-width: 517px;
